@@ -13,7 +13,7 @@
 		<Import url="http://files.mcupdater.com/optional/ServerPack.xml">optional</Import>
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookie" depends="" side="BOTH">
 			<ModType>Override</ModType>
-			<Required>true</ModType>
+			<Required>true</Required>
 		</Module>
 
 		<!-- import resource packs -->
