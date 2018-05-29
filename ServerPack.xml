@@ -66,16 +66,16 @@ i		</Module>
 		</Module>
 
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft/files/2565186/download</URL>
-			<Curse project="thaumcraft" file="2565186" type="RELEASE" autoupgrade="false"/>
-			<Size>11015810</Size>
+			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft/files/2558648/download</URL>
+			<Curse project="thaumcraft" file="2558648" type="RELEASE" autoupgrade="false"/>
+			<Size>10657278</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>492dc24ef879129de8791c965a5785f3</MD5>
+			<MD5>5414d777e4c2bbc6174fa846cbf7e010</MD5>
 			<Meta>
 				<credits>Special thanks to CovertJaguar, Dan Scott, Lorc, bonemouse, Scott Killen, Rorax and chicken_bones</credits>
 				<description>Adding a touch of magic to Minecraft</description>
-				<version>1.12.2-6.1.BETA15</version>
+				<version>1.12.2-6.1.BETA13</version>
 				<url>http://www.minecraftforum.net/topic/2011841-thaumcraft</url>
 				<authors>Azanor</authors>
 			</Meta>
