@@ -17,7 +17,10 @@
 		</Module>
 		<Module name="HWYLA - Here's What You're Looking At" id="hwlya" depends="" side="CLIENT">
 			<ModType>Removal</ModType>
-i		</Module>
+		</Module>
+		<Module name="NEI" id="nei" depends="" side="CLIENT">
+			<ModType>Removal</ModType>
+		</Module>
 
 		<!-- import resource packs -->
 		<Import url="http://files.mcupdater.com/optional/ResourcePack.xml">resource_packs</Import>
@@ -205,7 +208,7 @@ i		</Module>
 				<authors>LogicTechCorp, Eleazzaar, Nazenn, Vlakk</authors>
 			</Meta>
 		</Module>
-
+<!--
 		<Module name="OreSpawn" id="orespawn" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/mmd-orespawn/files/2547933/download</URL>
 			<Curse project="mmd-orespawn" file="2547933" type="RELEASE" autoupgrade="false"/>
@@ -251,7 +254,7 @@ i		</Module>
 				<authors>jriwanek, Knoxhack</authors>
 			</Meta>
 		</Module>
-				
+-->
 		<!-- original modpack -->
 		<Module name="actually-additions" id="actually-additions" depends="" side="BOTH">
 			<Curse project="actually-additions" file="2560486" type="RELEASE" autoupgrade="false"/>
