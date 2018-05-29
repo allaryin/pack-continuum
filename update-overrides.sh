@@ -1,6 +1,7 @@
 #!/bin/sh
 
 ZIP='overrides.zip'
+mv ${ZIP} ${ZIP}.bak
 cd overrides
 zip -r ../${ZIP} *
 cd ..
