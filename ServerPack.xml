@@ -773,7 +773,11 @@ i		</Module>
 			<ModType>Regular</ModType>
 			<MD5>d7360eb88e7bcf7500e58b77178f92b0</MD5>
 		</Module>
-		<Module name="pams-harvestcraft" id="pams-harvestcraft" depends="" side="BOTH">
+		<!-- rename from testing -->
+		<Module name="old-harvestcraft" id='pams-harvestcraft' depends='' side='CLIENT'>
+			<ModType>Removal</ModType>
+		</Module>
+		<Module name="pams-harvestcraft" id="harvestcraft" depends="" side="BOTH">
 			<Curse project="pams-harvestcraft" file="2560919" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
@@ -880,26 +884,12 @@ i		</Module>
 			<ModType>Regular</ModType>
 			<MD5>5fc65d2916370b8e34eb44089c8a0547</MD5>
 		</Module>
-		<Module name="sampler" id="sampler" depends="" side="BOTH">
-			<Curse project="sampler" file="2536015" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>2e4b895129e7911657f924713e9337d7</MD5>
-		</Module>
 		<Module name="shadowfacts-forgelin" id="shadowfacts-forgelin" depends="" side="BOTH">
 			<Curse project="shadowfacts-forgelin" file="2505090" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>a6a1d137f7bbbbe5f89ecb790105f268</MD5>
-		</Module>
-		<Module name="simpleharvest" id="simpleharvest" depends="" side="BOTH">
-			<Curse project="simpleharvest" file="2475234" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>540653c37e350a3f928ba176896e44c5</MD5>
 		</Module>
 		<Module name="simplelogic" id="simplelogic" depends="" side="BOTH">
 			<Curse project="simplelogic" file="2553866" type="RELEASE" autoupgrade="false"/>
