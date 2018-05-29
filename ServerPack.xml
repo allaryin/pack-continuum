@@ -33,6 +33,37 @@ i		</Module>
 
 		<!-- additions -->
 
+		<Module name="AutoPackager" id="autopackager" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/autopackager/files/2508230/download</URL>
+			<Curse project="autopackager" file="2508230" type="RELEASE" autoupgrade="false"/>
+			<Size>35765</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>435d351b7019ecfb587f6bbfd65b9b0d</MD5>
+			<Meta>
+				<credits>JadedCat, for making Agrarian Skies, for which the need for this arose.</credits>
+				<description>Autocraft recipes made of a single item type</description>
+				<version>1.9</version>
+				<url>http://minecraft.curseforge.com/projects/autopackager</url>
+				<authors>smbarbour</authors>
+			</Meta>
+		</Module>
+		<Module name="Reconstructor" id="reconstructor" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/reconstructor/files/2490851/download</URL>
+			<Curse project="reconstructor" file="2490851" type="RELEASE" autoupgrade="false"/>
+			<Size>33118</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b59276fc4e7d83d30ab59bf3e4404f25</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Repair your stuff using Forge Energy</description>
+				<version>2.11a</version>
+				<url></url>
+				<authors>smbarbour</authors>
+			</Meta>
+		</Module>
+
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft/files/2565186/download</URL>
 			<Curse project="thaumcraft" file="2565186" type="RELEASE" autoupgrade="false"/>
