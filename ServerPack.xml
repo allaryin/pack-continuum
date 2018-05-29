@@ -11,6 +11,10 @@
 
 		<!-- import optionals -->
 		<Import url="http://files.mcupdater.com/optional/ServerPack.xml">optional</Import>
+		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookie" depends="" side="BOTH">
+			<ModType>Override</ModType>
+			<Required>true</ModType>
+		</Module>
 
 		<!-- import resource packs -->
 		<Import url="http://files.mcupdater.com/optional/ResourcePack.xml">resource_packs</Import>
@@ -53,6 +57,7 @@
 			<ModType>Regular</ModType>
 			<MD5>b07ddee5ebde78a0f4d8bf770f4c11f8</MD5>
 		</Module>
+<!-- optional
 		<Module name="appleskin" id="appleskin" depends="" side="BOTH">
 			<Curse project="appleskin" file="2496585" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -60,6 +65,7 @@
 			<ModType>Regular</ModType>
 			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
 		</Module>
+-->
 		<Module name="applied-energistics-2" id="applied-energistics-2" depends="" side="BOTH">
 			<Curse project="applied-energistics-2" file="2543840" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -74,6 +80,7 @@
 			<ModType>Regular</ModType>
 			<MD5>fa73c94b556aeafe8e1138ea754d0b43</MD5>
 		</Module>
+<!-- optional
 		<Module name="bad-wither-no-cookie-reloaded" id="bad-wither-no-cookie-reloaded" depends="" side="BOTH">
 			<Curse project="bad-wither-no-cookie-reloaded" file="2496777" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -81,6 +88,7 @@
 			<ModType>Regular</ModType>
 			<MD5>b50264029ca6b448026a3922f5131975</MD5>
 		</Module>
+-->
 		<Module name="base" id="base" depends="" side="BOTH">
 			<Curse project="base" file="2561983" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -102,13 +110,7 @@
 			<ModType>Regular</ModType>
 			<MD5>d2b8ba08414ac12737eb5ecbf92a19d9</MD5>
 		</Module>
-		<Module name="bed-patch" id="bed-patch" depends="" side="BOTH">
-			<Curse project="bed-patch" file="2532663" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>336fea80502d84a94a04791c64f1b071</MD5>
-		</Module>
+<!-- optional
 		<Module name="better-advancements" id="better-advancements" depends="" side="BOTH">
 			<Curse project="better-advancements" file="2504151" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -116,6 +118,7 @@
 			<ModType>Regular</ModType>
 			<MD5>a16be15706357e59ccb196e59d17e33d</MD5>
 		</Module>
+-->
 		<Module name="better-builders-wands" id="better-builders-wands" depends="" side="BOTH">
 			<Curse project="better-builders-wands" file="2443194" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -221,11 +224,12 @@
 			<ModType>Regular</ModType>
 			<MD5>9dacb61f79448e2b1707a69e9f3f1bc9</MD5>
 		</Module>
-		<Module name="codechicken-lib-1-8" id="codechicken-lib-1-8" depends="" side="BOTH">
+<!-- overriding optional -->
+		<Module name="codechicken-lib-1-8" id="codechickenlib" depends="" side="BOTH">
 			<Curse project="codechicken-lib-1-8" file="2558563" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
-			<ModType>Regular</ModType>
+			<ModType>Override</ModType>
 			<MD5>b92d9acf18144067cd3143116808c32f</MD5>
 		</Module>
 		<Module name="cofh-world" id="cofh-world" depends="" side="BOTH">
@@ -242,6 +246,7 @@
 			<ModType>Regular</ModType>
 			<MD5>ce8b27ef0e72beac94473a35ef56a3d2</MD5>
 		</Module>
+<!-- optional
 		<Module name="controlling" id="controlling" depends="" side="BOTH">
 			<Curse project="controlling" file="2522248" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -249,6 +254,7 @@
 			<ModType>Regular</ModType>
 			<MD5>0d9a0429c72bc1c06358f1166bdd8c59</MD5>
 		</Module>
+-->
 		<Module name="cooking-for-blockheads" id="cooking-for-blockheads" depends="" side="BOTH">
 			<Curse project="cooking-for-blockheads" file="2543356" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -262,13 +268,6 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>8bee6d4762f4a0ed85c34c988a56c077</MD5>
-		</Module>
-		<Module name="creeperhost-minetogether" id="creeperhost-minetogether" depends="" side="BOTH">
-			<Curse project="creeperhost-minetogether" file="2516905" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>f053f5170460a9e2b06b9cb36018f7a9</MD5>
 		</Module>
 		<Module name="ctm" id="ctm" depends="" side="BOTH">
 			<Curse project="ctm" file="2519601" type="RELEASE" autoupgrade="false"/>
@@ -396,6 +395,7 @@
 			<ModType>Regular</ModType>
 			<MD5>41ed41703c36ddea0b611252ec23376d</MD5>
 		</Module>
+<!-- optional
 		<Module name="foamfix-for-minecraft" id="foamfix-for-minecraft" depends="" side="BOTH">
 			<Curse project="foamfix-for-minecraft" file="2559212" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -403,6 +403,7 @@
 			<ModType>Regular</ModType>
 			<MD5>7f8f1e58481d9acbb9e32caf8d59058a</MD5>
 		</Module>
+-->
 		<Module name="forestry" id="forestry" depends="" side="BOTH">
 			<Curse project="forestry" file="2562681" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -473,6 +474,7 @@
 			<ModType>Regular</ModType>
 			<MD5>44a3ebc29fe9531ec290e292d07d7d84</MD5>
 		</Module>
+<!-- optional
 		<Module name="inventory-tweaks" id="inventory-tweaks" depends="" side="BOTH">
 			<Curse project="inventory-tweaks" file="2482481" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -480,6 +482,7 @@
 			<ModType>Regular</ModType>
 			<MD5>1e2e33e5710394252abc4b014bc3dcbd</MD5>
 		</Module>
+-->
 		<Module name="iron-backpacks" id="iron-backpacks" depends="" side="BOTH">
 			<Curse project="iron-backpacks" file="2564573" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -494,6 +497,7 @@
 			<ModType>Regular</ModType>
 			<MD5>dd941ee283cfc5507ed846a1f52e67be</MD5>
 		</Module>
+<!-- optional
 		<Module name="jei" id="jei" depends="" side="BOTH">
 			<Curse project="jei" file="2564320" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -529,6 +533,7 @@
 			<ModType>Regular</ModType>
 			<MD5>40bf79d340cc70c7683253479638e5f7</MD5>
 		</Module>
+-->
 		<Module name="libvulpes" id="libvulpes" depends="" side="BOTH">
 			<Curse project="libvulpes" file="2558979" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -557,7 +562,7 @@
 			<ModType>Regular</ModType>
 			<MD5>e2cd9d3d5ad2078062c91f9c33fd215c</MD5>
 		</Module>
-		<Module name="mcjtylib" id="mcjtylib" depends="" side="BOTH">
+		<Module name="mcjtylib" id="mcjtylib" depends="" side="BOTH">/
 			<Curse project="mcjtylib" file="2543038" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
@@ -574,17 +579,18 @@
 		<Module name="more-overlays" id="more-overlays" depends="" side="BOTH">
 			<Curse project="more-overlays" file="2495438" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
-			<Required>true</Required>
+			<Required isDefault='true'>false</Required>
 			<ModType>Regular</ModType>
 			<MD5>3cc08d8c99db412c904389bce6e12cd3</MD5>
 		</Module>
-		<Module name="morpheus" id="morpheus" depends="" side="BOTH">
+		<Module name="morpheus" id="morpheus" depends="" side="SERVER">
 			<Curse project="morpheus" file="2432272" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>6beb6c9b45a6526106f728ec35508a0c</MD5>
 		</Module>
+<!-- optional
 		<Module name="mouse-tweaks" id="mouse-tweaks" depends="" side="BOTH">
 			<Curse project="mouse-tweaks" file="2462627" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -592,6 +598,7 @@
 			<ModType>Regular</ModType>
 			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
 		</Module>
+-->
 		<Module name="mtlib" id="mtlib" depends="" side="BOTH">
 			<Curse project="mtlib" file="2539950" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -605,13 +612,6 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>1ebaf8712bb619fc75641d71cbf1002b</MD5>
-		</Module>
-		<Module name="netherportalfix" id="netherportalfix" depends="" side="BOTH">
-			<Curse project="netherportalfix" file="2489643" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>c3a2aff88d5b46dd22a2635f403568eb</MD5>
 		</Module>
 		<Module name="openblocks" id="openblocks" depends="" side="BOTH">
 			<Curse project="openblocks" file="2530225" type="RELEASE" autoupgrade="false"/>
@@ -690,6 +690,7 @@
 			<ModType>Regular</ModType>
 			<MD5>29512482818fe06791e9af63c611e4b2</MD5>
 		</Module>
+<!-- optional
 		<Module name="reauth" id="reauth" depends="" side="BOTH">
 			<Curse project="reauth" file="2560638" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -697,6 +698,7 @@
 			<ModType>Regular</ModType>
 			<MD5>6024686e40df10b8739042ea2dce7f1a</MD5>
 		</Module>
+-->
 		<Module name="reborncore" id="reborncore" depends="" side="BOTH">
 			<Curse project="reborncore" file="2563612" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -906,13 +908,6 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>9d509b63f11ed73e6819513c945be5e4</MD5>
-		</Module>
-		<Module name="tipthescales" id="tipthescales" depends="" side="BOTH">
-			<Curse project="tipthescales" file="2519158" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>cab6f1d0fd02a725230262a39a13454a</MD5>
 		</Module>
 		<Module name="top-addons" id="top-addons" depends="" side="BOTH">
 			<Curse project="top-addons" file="2556737" type="RELEASE" autoupgrade="false"/>
