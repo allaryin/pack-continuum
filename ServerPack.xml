@@ -213,13 +213,6 @@ i		</Module>
 			<ModType>Regular</ModType>
 			<MD5>853c56bd014423e424ecef6db2c1efb1</MD5>
 		</Module>
-		<Module name="chisels-bits" id="chisels-bits" depends="" side="BOTH">
-			<Curse project="chisels-bits" file="2563888" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>c0525635a04984ba1ad38ea85220f50f</MD5>
-		</Module>
 		<Module name="clumps" id="clumps" depends="" side="BOTH">
 			<Curse project="clumps" file="2458862" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
@@ -383,13 +376,6 @@ i		</Module>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>8b4d814b04c74724abd6967484a03d13</MD5>
-		</Module>
-		<Module name="flat-colored-blocks" id="flat-colored-blocks" depends="" side="BOTH">
-			<Curse project="flat-colored-blocks" file="2483466" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>9a42ce9b36f313751355476656a94adb</MD5>
 		</Module>
 		<Module name="flux-networks" id="flux-networks" depends="" side="BOTH">
 			<Curse project="flux-networks" file="2554683" type="RELEASE" autoupgrade="false"/>
