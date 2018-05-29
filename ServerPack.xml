@@ -21,6 +21,7 @@ i		</Module>
 
 		<!-- import resource packs -->
 		<Import url="http://files.mcupdater.com/optional/ResourcePack.xml">resource_packs</Import>
+		<Import url="http://files.mcupdater.com/imaginescape.tk/resources/ResourcePack.xml">resource_packs</Import>
 
 		<!-- zip file containing all configs -->
 		<Module id="configs" name="config overrides">
