@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="18.0529.0" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="18.0529.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<!-- forge -->
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="Minecraft Forge" id="forge-14.23.3.2655" depends="" side="BOTH">
@@ -189,7 +189,23 @@ i		</Module>
 				<authors>BlayTheNinth</authors>
 			</Meta>
 		</Module>
-				
+
+		<Module name="NetherEx" id="nex" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/netherex/files/2506216/download</URL>
+			<Curse project="netherex" file="2506216" type="RELEASE" autoupgrade="false"/>
+			<Size>2855481</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>95e61a1ea78a1e40b53eab378ffdee6d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Nether expansion, exploration, and experience.</description>
+				<version>2.1.14.15</version>
+				<url>https://minecraft.curseforge.com/projects/netherex</url>
+				<authors>LogicTechCorp, Eleazzaar, Nazenn, Vlakk</authors>
+			</Meta>
+		</Module>
+
 		<!-- original modpack -->
 		<Module name="actually-additions" id="actually-additions" depends="" side="BOTH">
 			<Curse project="actually-additions" file="2560486" type="RELEASE" autoupgrade="false"/>
