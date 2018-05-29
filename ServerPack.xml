@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="18.0528.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="18.0528.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<!-- forge -->
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="Minecraft Forge" id="forge-14.23.3.2655" depends="" side="BOTH">
@@ -29,6 +29,39 @@ i		</Module>
 		    <Required>true</Required>
 		    <ModType inRoot="true">Extract</ModType>
 		    <MD5>f4ffcf7f95b39f80d056b6bd03268107</MD5> <!-- auto:overrides.zip -->
+		</Module>
+
+		<!-- additions -->
+
+		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft/files/2565186/download</URL>
+			<Curse project="thaumcraft" file="2565186" type="RELEASE" autoupgrade="false"/>
+			<Size>11015810</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>492dc24ef879129de8791c965a5785f3</MD5>
+			<Meta>
+				<credits>Special thanks to CovertJaguar, Dan Scott, Lorc, bonemouse, Scott Killen, Rorax and chicken_bones</credits>
+				<description>Adding a touch of magic to Minecraft</description>
+				<version>1.12.2-6.1.BETA15</version>
+				<url>http://www.minecraftforum.net/topic/2011841-thaumcraft</url>
+				<authors>Azanor</authors>
+			</Meta>
+		</Module>
+		<Module name="Thaumcraft Inventory Scanning" id="tcinventoryscan" depends="thaumcraft" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft-inventory-scanning/files/2559089/download</URL>
+			<Curse project="thaumcraft-inventory-scanning" file="2559089" type="RELEASE" autoupgrade="false"/>
+			<Size>17224</Size>
+			<Required isDefault='true'>false</Required>
+			<ModType>Regular</ModType>
+			<MD5>06a0c80b784a340e1f9a91e104edb644</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Allows hovering over items in inventories while holding a Thaumometer to scan them.</description>
+				<version>2.0.10</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
 		</Module>
 
 		<!-- original modpack -->
