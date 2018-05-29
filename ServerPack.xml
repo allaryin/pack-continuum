@@ -206,6 +206,52 @@ i		</Module>
 			</Meta>
 		</Module>
 
+		<Module name="OreSpawn" id="orespawn" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mmd-orespawn/files/2547933/download</URL>
+			<Curse project="mmd-orespawn" file="2547933" type="RELEASE" autoupgrade="false"/>
+			<Size>158525</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>46964d2c22ebfe77221a8f5e6de05074</MD5>
+			<Meta>
+				<credits>The MMD community</credits>
+				<description>A customizable ore-spawning system that uses JSON files to specify custom ore generation</description>
+				<version>3.3.0</version>
+				<url></url>
+				<authors>dshadowwolf, iLexiconn, jriwanek, DrCyano</authors>
+			</Meta>
+		</Module>
+		<Module name="Base Metals" id="basemetals" depends="orespawn" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/base-metals/files/2541593/download</URL>
+			<Curse project="base-metals" file="2541593" type="RELEASE" autoupgrade="false"/>
+			<Size>3724464</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5ba3db73dd8530519ed67816b4b24ef1</MD5>
+			<Meta>
+				<credits>Cyanobacterium (aka DrCyano) For starting the project &amp; geologists everywhere. SeqSEE for helping with shields.</credits>
+				<description>This mod adds historically common metals to Minecraft</description>
+				<version>2.5.0-beta5</version>
+				<url>https://github.com/MineCraftModDevelopmentMods/BaseMetals</url>
+				<authors>jriwanek, dshadowwolf</authors>
+			</Meta>
+		</Module>
+		<Module name="Nether Metals" id="nethermetals" depends="orespawn" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/nether-metals/files/2541580/download</URL>
+			<Curse project="nether-metals" file="2541580" type="RELEASE" autoupgrade="false"/>
+			<Size>115726</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a674ecbf639a21c2306b4eee9e4dc201</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Nether Metals is an Addon for the mod Base Metals, it expands it to bring its ores to the Nether dimension.</description>
+				<version>1.2.0-beta3</version>
+				<url>https://github.com/MinecraftModDevelopment/NetherMetals</url>
+				<authors>jriwanek, Knoxhack</authors>
+			</Meta>
+		</Module>
+				
 		<!-- original modpack -->
 		<Module name="actually-additions" id="actually-additions" depends="" side="BOTH">
 			<Curse project="actually-additions" file="2560486" type="RELEASE" autoupgrade="false"/>
