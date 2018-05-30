@@ -1255,6 +1255,7 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>da1f9a225ab31275420e55bb5f88c833</MD5>
+			<ModPath>mods/tconstruct.jar</ModPath>
 		</Module>
 		<Module name="tinkers-tool-leveling" id="tinkers-tool-leveling" depends="" side="BOTH">
 			<Curse project="tinkers-tool-leveling" file="2558689" type="RELEASE" autoupgrade="false"/>
