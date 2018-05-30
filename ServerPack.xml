@@ -193,7 +193,10 @@
 			</Meta>
 		</Module>
 
-		<Module name="NetherEx" id="nex" depends="" side="BOTH">
+		<Module name='netherex-rename' id='nex' depends='' side='CLIENT'>
+			<ModType>Removal</ModType>
+		</Module>
+		<Module name="NetherEx" id="netherex" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/netherex/files/2506216/download</URL>
 			<Curse project="netherex" file="2506216" type="RELEASE" autoupgrade="false"/>
 			<Size>2855481</Size>
@@ -431,6 +434,7 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>3537aecf4d1afe375d955089cdb1a772</MD5>
+			<ModPath>mods/standard-expansion.jar</ModPath>
 		</Module>
 		<Module name="better-questing-triggerer" id="better-questing-triggerer" depends="" side="BOTH">
 			<Curse project="better-questing-triggerer" file="2546659" type="RELEASE" autoupgrade="false"/>
@@ -951,7 +955,7 @@
 			<MD5>d7360eb88e7bcf7500e58b77178f92b0</MD5>
 		</Module>
 		<!-- rename from testing -->
-		<Module name="old-harvestcraft" id='pams-harvestcraft' depends='' side='CLIENT'>
+		<Module name="harvestcraft-rename" id='pams-harvestcraft' depends='' side='CLIENT'>
 			<ModType>Removal</ModType>
 		</Module>
 		<Module name="pams-harvestcraft" id="harvestcraft" depends="" side="BOTH">
@@ -960,6 +964,7 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>d99dba2b235767d3098c0f07d7ae9a01</MD5>
+			<ModPath>mods/pams-harvestcraft.jar</ModPath>
 		</Module>
 		<Module name="pretty-beaches" id="pretty-beaches" depends="" side="BOTH">
 			<Curse project="pretty-beaches" file="2544390" type="RELEASE" autoupgrade="false"/>
@@ -1077,7 +1082,10 @@
 			<ModType>Regular</ModType>
 			<MD5>5fc65d2916370b8e34eb44089c8a0547</MD5>
 		</Module>
-		<Module name="shadowfacts-forgelin" id="shadowfacts-forgelin" depends="" side="BOTH">
+		<Module name='forgelin-rename' id='shadowfacts-forgelin' depends='' side='CLIENT'>
+			<ModType>Removal</ModType>
+		</Module>
+		<Module name="shadowfacts-forgelin" id="forgelin" depends="" side="BOTH">
 			<Curse project="shadowfacts-forgelin" file="2505090" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
@@ -1168,7 +1176,10 @@
 			<ModType>Regular</ModType>
 			<MD5>ec0a77ddc08541135a02ecfe6755d393</MD5>
 		</Module>
-		<Module name="the-spice-of-life" id="the-spice-of-life" depends="" side="BOTH">
+		<Module name='spice-of-life-rename' id='the-spice-of-life' depends='' side='CLIENT'>
+			<ModType>Removal</ModType>
+		</Module>
+		<Module name="the-spice-of-life" id="spice-of-life" depends="" side="BOTH">
 			<Curse project="the-spice-of-life" file="2486848" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
