@@ -224,7 +224,8 @@
 				<authors>dshadowwolf, iLexiconn, jriwanek, DrCyano</authors>
 			</Meta>
 		</Module>
-		<Module name="Base Metals" id="basemetals" depends="orespawn" side="BOTH">
+-->
+		<Module name="Base Metals" id="basemetals" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/base-metals/files/2541593/download</URL>
 			<Curse project="base-metals" file="2541593" type="RELEASE" autoupgrade="false"/>
 			<Size>3724464</Size>
@@ -239,7 +240,7 @@
 				<authors>jriwanek, dshadowwolf</authors>
 			</Meta>
 		</Module>
-		<Module name="Nether Metals" id="nethermetals" depends="orespawn" side="BOTH">
+		<Module name="Nether Metals" id="nethermetals" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/nether-metals/files/2541580/download</URL>
 			<Curse project="nether-metals" file="2541580" type="RELEASE" autoupgrade="false"/>
 			<Size>115726</Size>
@@ -254,7 +255,39 @@
 				<authors>jriwanek, Knoxhack</authors>
 			</Meta>
 		</Module>
--->
+
+		<Module name="Horizontal Glass Panes" id="hgp" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/horizontal-glass-panes/files/2536711/download</URL>
+			<Curse project="horizontal-glass-panes" file="2536711" type="RELEASE" autoupgrade="false"/>
+			<Size>29944</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a246fcd9e8e8e94c8ef7b3de001fe321</MD5>
+			<Meta>
+				<credits>Mark_R for the idea.</credits>
+				<description>Does what it says on the tin.</description>
+				<version>1.0</version>
+				<url></url>
+				<authors>tattyseal</authors>
+			</Meta>
+		</Module>
+				
+		<Module name="Actually Baubles" id="actuallybaubles" depends="actually-additions baubles" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/actually-baubles/files/2459131/download</URL>
+			<Curse project="actually-baubles" file="2459131" type="RELEASE" autoupgrade="false"/>
+			<Size>11604</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>71b8dfb3383bf90c615ff4be27f425b7</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Baubles capability for some Actually Additions gadgets!</description>
+				<version>1.1</version>
+				<url>https://github.com/Jacky1356400/ActuallyBaubles</url>
+				<authors>Jacky1356400</authors>
+			</Meta>
+		</Module>
+
 		<!-- original modpack -->
 		<Module name="actually-additions" id="actually-additions" depends="" side="BOTH">
 			<Curse project="actually-additions" file="2560486" type="RELEASE" autoupgrade="false"/>
