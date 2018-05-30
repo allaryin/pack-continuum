@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="18.0529.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="18.0529.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<!-- forge -->
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="Minecraft Forge" id="forge-14.23.3.2655" depends="" side="BOTH">
@@ -208,23 +208,7 @@
 				<authors>LogicTechCorp, Eleazzaar, Nazenn, Vlakk</authors>
 			</Meta>
 		</Module>
-<!--
-		<Module name="OreSpawn" id="orespawn" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/mmd-orespawn/files/2547933/download</URL>
-			<Curse project="mmd-orespawn" file="2547933" type="RELEASE" autoupgrade="false"/>
-			<Size>158525</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>46964d2c22ebfe77221a8f5e6de05074</MD5>
-			<Meta>
-				<credits>The MMD community</credits>
-				<description>A customizable ore-spawning system that uses JSON files to specify custom ore generation</description>
-				<version>3.3.0</version>
-				<url></url>
-				<authors>dshadowwolf, iLexiconn, jriwanek, DrCyano</authors>
-			</Meta>
-		</Module>
--->
+
 		<Module name="Base Metals" id="basemetals" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/base-metals/files/2541593/download</URL>
 			<Curse project="base-metals" file="2541593" type="RELEASE" autoupgrade="false"/>
@@ -240,7 +224,7 @@
 				<authors>jriwanek, dshadowwolf</authors>
 			</Meta>
 		</Module>
-		<Module name="Nether Metals" id="nethermetals" depends="" side="BOTH">
+		<Module name="Nether Metals" id="nethermetals" depends="basemetals" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/nether-metals/files/2541580/download</URL>
 			<Curse project="nether-metals" file="2541580" type="RELEASE" autoupgrade="false"/>
 			<Size>115726</Size>
@@ -285,6 +269,54 @@
 				<version>1.1</version>
 				<url>https://github.com/Jacky1356400/ActuallyBaubles</url>
 				<authors>Jacky1356400</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Fairy Lights" id="fairylights" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/fairy-lights/files/2513426/download</URL>
+			<Curse project="fairy-lights" file="2513426" type="RELEASE" autoupgrade="false"/>
+			<Size>1145825</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0ef947dffa09174093e2717c35ee147a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds fairy lights and other decorations to Minecraft</description>
+				<version>2.1.2</version>
+				<url>https://bit.ly/FairyLightsMod</url>
+				<authors>pau101</authors>
+			</Meta>
+		</Module>
+
+		<Module name="Familiar Fauna" id="familiarfauna" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/familiar-fauna/files/2559102/download</URL>
+			<Curse project="familiar-fauna" file="2559102" type="RELEASE" autoupgrade="false"/>
+			<Size>379142</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cf08a340a9ff519abee9955e8db5d534</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds new mobs to enhance Minecraft!</description>
+				<version>1.0.10</version>
+				<url>https://minecraft.curseforge.com/projects/familiar-fauna</url>
+				<authors>Forstride</authors>
+			</Meta>
+		</Module>
+				
+		<Module name="Just a Few Fish" id="jaff" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/just-a-few-fish/files/2448283/download</URL>
+			<Curse project="just-a-few-fish" file="2448283" type="RELEASE" autoupgrade="false"/>
+			<Size>238863</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7db981b35345514431b01025e4ab6cae</MD5>
+			<Meta>
+				<credits>Made by Tmtravlr</credits>
+				<description>Adds a few fish, to go along with the vanilla items!</description>
+				<version>1.7_for_1.12</version>
+				<url></url>
+				<authors>Tmtravlr</authors>
 			</Meta>
 		</Module>
 
