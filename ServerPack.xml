@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="18.0529.2" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="true" revision="18.0529.3" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<!-- forge -->
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="Minecraft Forge" id="forge-14.23.3.2655" depends="" side="BOTH">
@@ -525,19 +525,35 @@
 			<ModType>Override</ModType>
 			<MD5>b92d9acf18144067cd3143116808c32f</MD5>
 		</Module>
-		<Module name="cofh-world" id="cofh-world" depends="" side="BOTH">
-			<Curse project="cofh-world" file="2513671" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="CoFH World" id="cofh-world" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/cofh-world/files/2567263/download</URL>
+			<Curse project="cofh-world" file="2567263" type="RELEASE" autoupgrade="false"/>
+			<Size>449717</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b6bb4654ce07e8842b632fbe327ef5fe</MD5>
+			<MD5>a5331d71497b0e670a3fa4684e25f4bc</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Provides advanced and highly customizable world generation capabilities.</description>
+				<version>1.2.0.5</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
 		</Module>
-		<Module name="cofhcore" id="cofhcore" depends="" side="BOTH">
-			<Curse project="cofhcore" file="2556447" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/cofhcore/files/2567262/download</URL>
+			<Curse project="cofhcore" file="2567262" type="RELEASE" autoupgrade="false"/>
+			<Size>838068</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ce8b27ef0e72beac94473a35ef56a3d2</MD5>
+			<MD5>0f881b05ef4de36d4d050da7ec7c0ffb</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
+				<version>4.5.0.16</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
 		</Module>
 <!-- optional
 		<Module name="controlling" id="controlling" depends="" side="BOTH">
@@ -996,19 +1012,35 @@
 			<ModType>Regular</ModType>
 			<MD5>0b602094ddf83e7b4862788ccca665b1</MD5>
 		</Module>
-		<Module name="redstone-arsenal" id="redstone-arsenal" depends="" side="BOTH">
-			<Curse project="redstone-arsenal" file="2556769" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Redstone Arsenal" id="redstone-arsenal" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/redstone-arsenal/files/2567270/download</URL>
+			<Curse project="redstone-arsenal" file="2567270" type="RELEASE" autoupgrade="false"/>
+			<Size>254849</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5e30b5bb46bae76144079a5dc3a89e84</MD5>
+			<MD5>40b6e0731a24fbc47ca483f5079d64f6</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Behold the Redstone (Flux) Revolution - provides Flux-Infused Tools and Armor!</description>
+				<version>2.5.0.10</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
 		</Module>
-		<Module name="redstone-flux" id="redstone-flux" depends="" side="BOTH">
-			<Curse project="redstone-flux" file="2448933" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Redstone Flux" id="redstone-flux" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/redstone-flux/files/2567260/download</URL>
+			<Curse project="redstone-flux" file="2567260" type="RELEASE" autoupgrade="false"/>
+			<Size>35219</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>78bf83d17f71ea96cff66d93a6c0412a</MD5>
+			<MD5>0d15cc1e59c8028cf17f6a78bda460dc</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
+				<version>2.0.2.3</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
 		</Module>
 		<Module name="refined-storage" id="refined-storage" depends="" side="BOTH">
 			<Curse project="refined-storage" file="2564334" type="RELEASE" autoupgrade="false"/>
@@ -1143,34 +1175,67 @@
 			<ModType>Regular</ModType>
 			<MD5>30edc59a10f518639709a0187fbe522c</MD5>
 		</Module>
-		<Module name="thermal-cultivation" id="thermal-cultivation" depends="" side="BOTH">
-			<Curse project="thermal-cultivation" file="2555322" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Thermal Cultivation" id="thermal-cultivation" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-cultivation/files/2567267/download</URL>
+			<Curse project="thermal-cultivation" file="2567267" type="RELEASE" autoupgrade="false"/>
+			<Size>103830</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2e4ddc4479cde25fa71439fe16300ca3</MD5>
+			<MD5>7eb0f90ae14f53a995f33c8dc88215eb</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal gets Agrarian - provides options for farming and related activities!</description>
+				<version>0.3.0.7</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
 		</Module>
-		<Module name="thermal-dynamics" id="thermal-dynamics" depends="" side="BOTH">
-			<Curse project="thermal-dynamics" file="2556768" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Thermal Dynamics" id="thermal-dynamics" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-dynamics/files/2567266/download</URL>
+			<Curse project="thermal-dynamics" file="2567266" type="RELEASE" autoupgrade="false"/>
+			<Size>758593</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3a4585f7c24f6d37deceb250942ea212</MD5>
+			<MD5>c46ace56c50399552a98e17183c8b5c8</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
+				<version>2.5.0.12</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
 		</Module>
-		<Module name="thermal-foundation" id="thermal-foundation" depends="" side="BOTH">
-			<Curse project="thermal-foundation" file="2556452" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Thermal Foundation" id="thermal-foundation" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-foundation/files/2567264/download</URL>
+			<Curse project="thermal-foundation" file="2567264" type="RELEASE" autoupgrade="false"/>
+			<Size>2284463</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5457feb281938c3d66775ac81d95a524</MD5>
+			<MD5>8c64c3f1b266cde2e9785864f1ae17a3</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The Foundation of a Thermally enhanced world!</description>
+				<version>2.5.0.18</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
 		</Module>
-		<Module name="thermalexpansion" id="thermalexpansion" depends="" side="BOTH">
-			<Curse project="thermalexpansion" file="2556802" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/thermalexpansion/files/2567265/download</URL>
+			<Curse project="thermalexpansion" file="2567265" type="RELEASE" autoupgrade="false"/>
+			<Size>2342103</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5477d679ed182820b571bd6158583267</MD5>
+			<MD5>d2fd230e7ee573974b5964d8647b76df</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
+				<version>5.5.0.29</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
 		</Module>
+
 		<Module name="tinkers-construct" id="tinkers-construct" depends="" side="BOTH">
 			<Curse project="tinkers-construct" file="2563033" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
