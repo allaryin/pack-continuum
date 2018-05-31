@@ -749,16 +749,13 @@
 			<MD5>1a2fd68f3eabfccc9159d21c36279185</MD5>
 		</Module>
 		<Module name="FTB Utilities" id="ftb-utilities" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/ftb-utilities/files/2566378/download</URL>
-			<Curse project="ftb-utilities" file="2566378" type="RELEASE" autoupgrade="false"/>
+			<Curse project="ftb-utilities" file="2561796" type="RELEASE" autoupgrade="false"/>
 			<Size>381573</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>564bc3b40cfda7f5cc42ea9f25d1515f</MD5>
+			<MD5>3bb59494d456e078ac637e3cbf9d0b6a</MD5>
 			<Meta>
-				<credits></credits>
 				<description>FTBUtilities</description>
-				<version>5.1.0.24</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
