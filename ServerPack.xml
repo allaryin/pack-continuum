@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0530.0" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0530.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<!-- forge -->
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="Minecraft Forge" id="forge-14.23.3.2655" depends="" side="BOTH">
@@ -549,16 +549,16 @@
 			</Meta>
 		</Module>
 		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/cofhcore/files/2567262/download</URL>
-			<Curse project="cofhcore" file="2567262" type="RELEASE" autoupgrade="false"/>
-			<Size>838068</Size>
+			<URL priority="0">https://minecraft.curseforge.com/projects/cofhcore/files/2567553/download</URL>
+			<Curse project="cofhcore" file="2567553" type="RELEASE" autoupgrade="false"/>
+			<Size>838102</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0f881b05ef4de36d4d050da7ec7c0ffb</MD5>
+			<MD5>44895d84a19a261c6621f69ce3b92216</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
-				<version>4.5.0.16</version>
+				<version>4.5.1.18</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -635,12 +635,20 @@
 			<ModType>Regular</ModType>
 			<MD5>473c5cc42c88e61db013eab03e39016a</MD5>
 		</Module>
-		<Module name="ender-storage-1-8" id="ender-storage-1-8" depends="" side="BOTH">
-			<Curse project="ender-storage-1-8" file="2509842" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="EnderStorage" id="ender-storage-1-8" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2566250/download</URL>
+			<Curse project="ender-storage-1-8" file="2566250" type="RELEASE" autoupgrade="false"/>
+			<Size>227144</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ffc1d43ab70c751a90b343fdd826ea73</MD5>
+			<MD5>fc0f1b8c7818757ce92221568c94b4fb</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Stores your stuff in the END!</description>
+				<version>2.4.3.130</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
 		</Module>
 		<Module name="engineers-doors" id="engineers-doors" depends="" side="BOTH">
 			<Curse project="engineers-doors" file="2553287" type="RELEASE" autoupgrade="false"/>
@@ -714,12 +722,20 @@
 			<MD5>7f8f1e58481d9acbb9e32caf8d59058a</MD5>
 		</Module>
 -->
-		<Module name="forestry" id="forestry" depends="" side="BOTH">
-			<Curse project="forestry" file="2562681" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Forestry" id="forestry" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/forestry/files/2567022/download</URL>
+			<Curse project="forestry" file="2567022" type="RELEASE" autoupgrade="false"/>
+			<Size>5239685</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>bc3c65388c737e240883f43b3ea814ec</MD5>
+			<MD5>115f0913d16087f0b70811e94b7a5374</MD5>
+			<Meta>
+				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
+				<description>Trees, bees and more.</description>
+				<version>5.8.0.295</version>
+				<url>http://forestry.sengir.net/</url>
+				<authors>SirSengir, mezz</authors>
+			</Meta>
 		</Module>
 		<Module name="forge-multipart-cbe" id="forge-multipart-cbe" depends="" side="BOTH">
 			<Curse project="forge-multipart-cbe" file="2560760" type="RELEASE" autoupgrade="false"/>
@@ -735,19 +751,35 @@
 			<ModType>Regular</ModType>
 			<MD5>1a2fd68f3eabfccc9159d21c36279185</MD5>
 		</Module>
-		<Module name="ftb-utilities" id="ftb-utilities" depends="" side="BOTH">
-			<Curse project="ftb-utilities" file="2561796" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="FTB Utilities" id="ftb-utilities" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ftb-utilities/files/2566378/download</URL>
+			<Curse project="ftb-utilities" file="2566378" type="RELEASE" autoupgrade="false"/>
+			<Size>381573</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3bb59494d456e078ac637e3cbf9d0b6a</MD5>
+			<MD5>564bc3b40cfda7f5cc42ea9f25d1515f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>FTBUtilities</description>
+				<version>5.1.0.24</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
+				<authors>LatvianModder</authors>
+			</Meta>
 		</Module>
-		<Module name="ftblib" id="ftblib" depends="" side="BOTH">
-			<Curse project="ftblib" file="2561795" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ftblib/files/2566050/download</URL>
+			<Curse project="ftblib" file="2566050" type="RELEASE" autoupgrade="false"/>
+			<Size>738760</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ea9b6c7611e66264f8877221de6a1f78</MD5>
+			<MD5>669bf618ae761b06eafe725f8c12deae</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.1.0.19</version>
+				<url>http://minecraft.curseforge.com/projects/ftblib</url>
+				<authors>LatvianModder</authors>
+			</Meta>
 		</Module>
 		<Module name="gendustry" id="gendustry" depends="" side="BOTH">
 			<Curse project="gendustry" file="2516215" type="RELEASE" autoupgrade="false"/>
@@ -858,12 +890,20 @@
 			<ModType>Regular</ModType>
 			<MD5>663ad7e644727f0fb3c85f672c55efa2</MD5>
 		</Module>
-		<Module name="magic-bees" id="magic-bees" depends="" side="BOTH">
-			<Curse project="magic-bees" file="2517686" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Magic Bees" id="magic-bees" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/magic-bees/files/2566282/download</URL>
+			<Curse project="magic-bees" file="2566282" type="RELEASE" autoupgrade="false"/>
+			<Size>1035863</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0ff3ae08418fa01c6596822378d32330</MD5>
+			<MD5>16b05db9ab13a8411e8a3b7abe69ec77</MD5>
+			<Meta>
+				<credits>SirSengir, Azanor, Binnie &amp; the Forestry Dev peeps</credits>
+				<description>Magic themed bee expansion for Forestry. TC4, Botania, EE3, AM 2, TE 3 &amp; more!</description>
+				<version>3.1.10</version>
+				<url>http://bit.ly/XFDvLY</url>
+				<authors>Elec332, MysteriousAges</authors>
+			</Meta>
 		</Module>
 		<Module name="mantle" id="mantle" depends="" side="BOTH">
 			<Curse project="mantle" file="2550550" type="RELEASE" autoupgrade="false"/>
@@ -909,12 +949,20 @@
 			<MD5>34343a214952bd0631e7692b1bf6e586</MD5>
 		</Module>
 -->
-		<Module name="mtlib" id="mtlib" depends="" side="BOTH">
-			<Curse project="mtlib" file="2539950" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="MTLib" id="mtlib" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/mtlib/files/2567171/download</URL>
+			<Curse project="mtlib" file="2567171" type="RELEASE" autoupgrade="false"/>
+			<Size>30005</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4034d1d2f4b3d6cf3b3f0799594ca6bc</MD5>
+			<MD5>b8830961b5984565f3ed652d928e7115</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>3.0.5</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
 		</Module>
 		<Module name="natura" id="natura" depends="" side="BOTH">
 			<Curse project="natura" file="2553697" type="RELEASE" autoupgrade="false"/>
@@ -1014,12 +1062,20 @@
 			<MD5>6024686e40df10b8739042ea2dce7f1a</MD5>
 		</Module>
 -->
-		<Module name="reborncore" id="reborncore" depends="" side="BOTH">
-			<Curse project="reborncore" file="2563612" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/reborncore/files/2566374/download</URL>
+			<Curse project="reborncore" file="2566374" type="RELEASE" autoupgrade="false"/>
+			<Size>553103</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0b602094ddf83e7b4862788ccca665b1</MD5>
+			<MD5>136e16d19acdcc3832615a64eeeb1977</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
+				<version>3.8.5.290</version>
+				<url>https://github.com/TechReborn/RebornCore</url>
+				<authors>modmuss50, Gigabit101, Prospector</authors>
+			</Meta>
 		</Module>
 		<Module name="Redstone Arsenal" id="redstone-arsenal" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/redstone-arsenal/files/2567270/download</URL>
@@ -1103,12 +1159,20 @@
 			<ModType>Regular</ModType>
 			<MD5>8eab8753556f06e6a908647149ca72b5</MD5>
 		</Module>
-		<Module name="simply-jetpacks-2" id="simply-jetpacks-2" depends="" side="BOTH">
-			<Curse project="simply-jetpacks-2" file="2558852" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="Simply Jetpacks 2" id="simply-jetpacks-2" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/simply-jetpacks-2/files/2564933/download</URL>
+			<Curse project="simply-jetpacks-2" file="2564933" type="RELEASE" autoupgrade="false"/>
+			<Size>647400</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c9cf22f59d9d7e518cfd29993737ede5</MD5>
+			<MD5>ddebe0b639d68e2aad9116b57d9084f2</MD5>
+			<Meta>
+				<credits>Team CoFH, CrazyPants, Pathaleon, sk89q, Cybercat, dand0, nabijaczleweli, kevba10, and anyone else who helped making the mod, directly or indirectly</credits>
+				<description>Redstone Flux jetpacks and more</description>
+				<version>2.2.5.39</version>
+				<url>https://minecraft.curseforge.com/projects/simply-jetpacks-2</url>
+				<authors>tonius11, Tomson124</authors>
+			</Meta>
 		</Module>
 		<Module name="snad" id="snad" depends="" side="BOTH">
 			<Curse project="snad" file="2480458" type="RELEASE" autoupgrade="false"/>
@@ -1221,16 +1285,16 @@
 			</Meta>
 		</Module>
 		<Module name="Thermal Foundation" id="thermal-foundation" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-foundation/files/2567264/download</URL>
-			<Curse project="thermal-foundation" file="2567264" type="RELEASE" autoupgrade="false"/>
-			<Size>2284463</Size>
+			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-foundation/files/2567555/download</URL>
+			<Curse project="thermal-foundation" file="2567555" type="RELEASE" autoupgrade="false"/>
+			<Size>2284786</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8c64c3f1b266cde2e9785864f1ae17a3</MD5>
+			<MD5>cb0ff0d6af0627792bdaaa23541dcad8</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>The Foundation of a Thermally enhanced world!</description>
-				<version>2.5.0.18</version>
+				<version>2.5.0.19</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -1266,12 +1330,20 @@
 			<ModType>Regular</ModType>
 			<MD5>9d509b63f11ed73e6819513c945be5e4</MD5>
 		</Module>
-		<Module name="top-addons" id="top-addons" depends="" side="BOTH">
-			<Curse project="top-addons" file="2556737" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
+		<Module name="TOP Addons" id="top-addons" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/top-addons/files/2567271/download</URL>
+			<Curse project="top-addons" file="2567271" type="RELEASE" autoupgrade="false"/>
+			<Size>223723</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7cc542649292ac589669c277bfd5abe1</MD5>
+			<MD5>0b216d58d8b95fc2c749c7d12b1a57cf</MD5>
+			<Meta>
+				<credits>McJty, for making TheOneProbe</credits>
+				<description>TheOneProbe support for some mods.</description>
+				<version>1.12.2-1.7.0</version>
+				<url>drmanganese.github.io</url>
+				<authors>DrManganese</authors>
+			</Meta>
 		</Module>
 		<Module name="torchmaster" id="torchmaster" depends="" side="BOTH">
 			<Curse project="torchmaster" file="2560361" type="RELEASE" autoupgrade="false"/>
