@@ -636,16 +636,13 @@
 			<MD5>473c5cc42c88e61db013eab03e39016a</MD5>
 		</Module>
 		<Module name="EnderStorage" id="ender-storage-1-8" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/ender-storage-1-8/files/2566250/download</URL>
-			<Curse project="ender-storage-1-8" file="2566250" type="RELEASE" autoupgrade="false"/>
-			<Size>227144</Size>
+			<Curse project="ender-storage-1-8" file="2509842" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>fc0f1b8c7818757ce92221568c94b4fb</MD5>
+			<MD5>ffc1d43ab70c751a90b343fdd826ea73</MD5>
 			<Meta>
-				<credits></credits>
 				<description>Stores your stuff in the END!</description>
-				<version>2.4.3.130</version>
 				<url>http://www.minecraftforum.net/topic/909223</url>
 				<authors>ChickenBones, covers1624</authors>
 			</Meta>
@@ -767,16 +764,12 @@
 			</Meta>
 		</Module>
 		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/ftblib/files/2566050/download</URL>
-			<Curse project="ftblib" file="2566050" type="RELEASE" autoupgrade="false"/>
-			<Size>738760</Size>
+			<Curse project="ftblib" file="2561795" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>669bf618ae761b06eafe725f8c12deae</MD5>
+			<MD5>ea9b6c7611e66264f8877221de6a1f78</MD5>
 			<Meta>
-				<credits></credits>
-				<description></description>
-				<version>5.1.0.19</version>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
 			</Meta>
