@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0602.0" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0602.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<!-- forge -->
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
 		<Module name="Minecraft Forge" id="forge-14.23.3.2655" depends="" side="BOTH">
@@ -323,6 +323,38 @@
 				<authors>Tmtravlr</authors>
 			</Meta>
 			<ModPath>mods/just-a-few-fish.jar</ModPath>
+		</Module>
+
+		<Module name="Comforts" id="comforts" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/comforts/files/2560487/download</URL>
+			<Curse project="comforts" file="2560487" type="RELEASE" autoupgrade="false"/>
+			<Size>148119</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>96fe6eaf3abd39722b98537cd05956b6</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds sleeping bags and hammocks for portability and daytime napping without setting a new spawn. Comes in 16 different colors!</description>
+				<version>1.12.2-1.1.1.1</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+				
+		<Module name="Akashic Tome" id="akashictome" depends="autoreglib" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/akashic-tome/files/2476494/download</URL>
+			<Curse project="akashic-tome" file="2476494" type="RELEASE" autoupgrade="false"/>
+			<Size>43608</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e5d6f7aa5bfe8987fcecc57dc2dc512b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The book of books.</description>
+				<version>1.2-10</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
 		</Module>
 
 		<!-- original modpack -->
