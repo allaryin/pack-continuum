@@ -6,7 +6,7 @@
             "biomes": [
                 {
                     "biomeId": "torrid_wasteland",
-                    "weight": 6,
+                    "weight": 4,
                     "climateType": "hot",
                     "topBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
                     "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
@@ -220,7 +220,7 @@
                 },
                 {
                     "biomeId": "hell",
-                    "weight": 10,
+                    "weight": 12,
                     "climateType": "warm",
                     "topBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
                     "fillerBlock": { "blockId": "minecraft:netherrack", "meta": 0 },
@@ -546,7 +546,7 @@
                 },
                 {
                     "biomeId": "ruthless_sands",
-                    "weight": 8,
+                    "weight": 6,
                     "climateType": "temperate",
                     "topBlock": { "blockId": "minecraft:soul_sand", "meta": 0 },
                     "fillerBlock": { "blockId": "nex:block_netherrack", "meta": 3 },
