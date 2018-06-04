@@ -33,7 +33,7 @@
 			<URL priority='1'>https://raw.githubusercontent.com/allaryin/pack-continuum/master/overrides.zip</URL>
 			<Required>true</Required>
 			<ModType inRoot="true">Extract</ModType>
-			<MD5>6b1203b5ec5e02a4668a73447be86f0d</MD5> <!-- auto:overrides.zip -->
+			<MD5>78f445e10b40fb1834e2ac3a078ed192</MD5> <!-- auto:overrides.zip -->
 		</Module>
 
 		<!-- additions -->
