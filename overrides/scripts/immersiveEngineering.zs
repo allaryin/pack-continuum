@@ -75,7 +75,7 @@ recipes.remove(<immersiveengineering:toolupgrade:9>);
 recipes.addShaped(<immersiveengineering:toolupgrade:9>, [[<immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>], [<immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_decoration0:2>]]);
 
 #capacitor backpack
-recipes.remove(<immersiveengineering:powerpack>);
+recipes.removeByRecipeName("immersiveengineering:armor/powerpack");
 recipes.addShaped(<immersiveengineering:powerpack>, [[<harvestcraft:hardenedleatheritem>, <immersiveengineering:metal_decoration0:1>, <harvestcraft:hardenedleatheritem>], [<immersiveengineering:wirecoil>, <immersiveengineering:connector>, <immersiveengineering:wirecoil>]]);
 
 #remove iridium from metal press

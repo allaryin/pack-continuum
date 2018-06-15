@@ -48,9 +48,9 @@ mods.jei.JEI.removeAndHide(<forestry:resources:1>);
 <extrautils2:drum:2>.addTooltip(format.darkRed("Contents are not kept when used in crafting recipes!"));
 <extrautils2:drum:3>.addTooltip(format.darkRed("Contents are not kept when used in crafting recipes!"));
 
-<rftoolspower:cell1>.addTooltip(format.darkRed("Energy is not kept when used in crafting recipes!"));
-<rftoolspower:cell2>.addTooltip(format.darkRed("Energy is not kept when used in crafting recipes!"));
-<rftoolspower:cell3>.addTooltip(format.darkRed("Energy is not kept when used in crafting recipes!"));
+#<rftoolspower:cell1>.addTooltip(format.darkRed("Energy is not kept when used in crafting recipes!"));
+#<rftoolspower:cell2>.addTooltip(format.darkRed("Energy is not kept when used in crafting recipes!"));
+#<rftoolspower:cell3>.addTooltip(format.darkRed("Energy is not kept when used in crafting recipes!"));
 
 #tooltip ores to show spawn levels
 <libvulpes:ore0>.addTooltip(format.green("Only obtained in Void Ore Miner Tier 6"));

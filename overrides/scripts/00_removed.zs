@@ -401,11 +401,24 @@ mods.jei.JEI.removeAndHide(<ae2stuff:wireless_kit>);
 #mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_jungle>);
 #mods.jei.JEI.removeAndHide(<malisisdoors:trapdoor_spruce>);
 
+#TE coal coke/block
+mods.jei.JEI.removeAndHide(<thermalfoundation:material:802>);
+mods.jei.JEI.removeAndHide(<thermalfoundation:storage_resource:1>);
+
 #telsa core machine case
 recipes.remove(<teslacorelib:machine_case>);
 
 #temp disable fluid interface until dupe bug is sorted
 #recipes.remove(<extracells:part.base:9>);
 #<extracells:part.base:9>.addTooltip(format.darkRed("Temporarily disabled until dupe bug is fixed!"));
+
+#enviromental tech resource blocks
+recipes.remove(<environmentaltech:ionite>);
+recipes.remove(<environmentaltech:erodium>);
+recipes.remove(<environmentaltech:kyronite>);
+recipes.remove(<environmentaltech:pladium>);
+recipes.remove(<environmentaltech:litherite>);
+recipes.remove(<environmentaltech:aethium>);
+recipes.remove(<environmentaltech:lonsdaleite>);
 
 print("Initialized 'removed.zs'");

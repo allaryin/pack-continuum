@@ -56,8 +56,9 @@ mods.techreborn.grinder.addRecipe(<thermalfoundation:material:2051> * 4, <therma
 mods.techreborn.grinder.addRecipe(<thermalfoundation:material:2049> * 4, <thermalfoundation:material:2048>, 300, 20);
 
 #adjust iridium output in industrial grinder
+#mods.techreborn.industrialGrinder.removeInputRecipe(<ore:oreIridium>);
 mods.techreborn.industrialGrinder.removeInputRecipe(<thermalfoundation:ore:7>);
-mods.techreborn.industrialGrinder.addRecipe(<thermalfoundation:material:135> * 2, <techreborn:smalldust:38> * 2, null, null, <thermalfoundation:ore:7>, <liquid:water> * 1000, 300, 40);
+mods.techreborn.industrialGrinder.addRecipe(<thermalfoundation:material:135> * 2, <techreborn:smalldust:38> * 2, null, null, <thermalfoundation:ore:7>, null, <liquid:water> * 1000, 300, 40);
 
 #fluxed plate
 mods.techreborn.compressor.addRecipe(<redstonearsenal:material:128>, <redstonearsenal:material:32>, 300, 20);
@@ -86,7 +87,6 @@ recipes.addShapeless(<techreborn:ingot:14>, [<libvulpes:productingot:7>]);
 recipes.addShapeless(<libvulpes:productnugget:7>, [<techreborn:nuggets:14>]);
 recipes.addShapeless(<techreborn:nuggets:14>, [<libvulpes:productnugget:7>]);
 
-
 #add TR gems dusts to oreDict
 #val oreDictBlue = <ore:dyeBlue>;
 #oreDictBlue.add(<techreborn:dust:45>);
@@ -98,11 +98,11 @@ recipes.addShapeless(<techreborn:nuggets:14>, [<libvulpes:productnugget:7>]);
 #fix block/plate compressor recipes
 //iron block
 mods.techreborn.compressor.removeInputRecipe(<minecraft:iron_block>);
-mods.techreborn.compressor.removeInputRecipe(<ore:blockIron>);
+#mods.techreborn.compressor.removeInputRecipe(<ore:blockIron>);
 mods.techreborn.compressor.addRecipe(<thermalfoundation:material:32> * 9, <minecraft:iron_block>, 300, 20);
 //gold block
 mods.techreborn.compressor.removeInputRecipe(<minecraft:gold_block>);
-mods.techreborn.compressor.removeInputRecipe(<ore:blockGold>);
+#mods.techreborn.compressor.removeInputRecipe(<ore:blockGold>);
 mods.techreborn.compressor.addRecipe(<thermalfoundation:material:33> * 9, <minecraft:gold_block>, 300, 20);
 
 #remove blockMetal from oreDict

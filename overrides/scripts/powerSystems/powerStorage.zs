@@ -42,11 +42,31 @@ recipes.addShaped(<rftoolspower:cell1>, [[<ore:ingotSilver>, <ore:ingotSilver>, 
 
 #medium 10,000,000 RF storage @ 250 RF transfer per block
 recipes.remove(<rftoolspower:cell2>);
-recipes.addShaped(<rftoolspower:cell2>, [[<rftoolspower:cell1>, <ore:lapotronCrystal>, <rftoolspower:cell1>], [<ore:lapotronCrystal>, <ore:circuitStorage>, <ore:lapotronCrystal>], [<rftoolspower:cell1>, <ore:lapotronCrystal>, <rftoolspower:cell1>]]);
-
+recipes.addShaped("mediumPowerCellRecipe", <rftoolspower:cell2>, [[<rftoolspower:cell1>.marked("1"), <ore:lapotronCrystal>, <rftoolspower:cell1>.marked("2")], [<ore:lapotronCrystal>, <ore:circuitStorage>, <ore:lapotronCrystal>], [<rftoolspower:cell1>.marked("3"), <ore:lapotronCrystal>, <rftoolspower:cell1>.marked("4")]], function(output, inputs, crafting) {
+  var power = 0;
+  for i, item in inputs {
+    if item.hasTag {
+      var tags = item.tag;
+      power += tags.energy;
+    }
+  }
+  if power != 0 { return output.withTag({"energy": power}); }
+  return output;
+}, null);
+ 
 #high 100,000,000 RF storage @ 1000 RF transfer per block
 recipes.remove(<rftoolspower:cell3>);
-recipes.addShaped(<rftoolspower:cell3>, [[<rftoolspower:cell2>, <ore:plateEnderium>, <rftoolspower:cell2>], [<ore:ingotBlutonium>, <ore:plateiridiumAlloy>, <ore:ingotBlutonium>], [<rftoolspower:cell2>, <ore:plateEnderium>, <rftoolspower:cell2>]]);
+recipes.addShaped("highPowerCellRecipe", <rftoolspower:cell3>, [[<rftoolspower:cell2>.marked("1"), <ore:plateEnderium>, <rftoolspower:cell2>.marked("2")], [<ore:ingotBlutonium>, <ore:plateiridiumAlloy>, <ore:ingotBlutonium>], [<rftoolspower:cell2>.marked("3"), <ore:plateEnderium>, <rftoolspower:cell2>.marked("4")]], function(output, inputs, crafting) {
+  var power = 0;
+  for i, item in inputs {
+    if item.hasTag {
+      var tags = item.tag;
+      power += tags.energy;
+    }
+  }
+  if power != 0 { return output.withTag({"energy": power}); }
+  return output;
+}, null);
 
 #power info screen
 recipes.remove(<rftoolspower:information_screen>);

@@ -119,11 +119,11 @@ recipes.addShaped(<techreborn:storage:2>, [[<ore:ingotTitanium>, <ore:ingotTitan
 mods.techreborn.alloySmelter.addRecipe(<tconstruct:ingots:5>, <ore:ingotAluminum>, <ore:ingotCopper>, 300, 20);
 
 #remove rubber from extractor
-mods.techreborn.extractor.removeRecipe(<techreborn:part:32>);
+#mods.techreborn.extractor.removeRecipe(<techreborn:part:32>);
 mods.techreborn.extractor.removeInputRecipe(<techreborn:rubber_sapling>);
 mods.techreborn.extractor.removeInputRecipe(<techreborn:rubber_log>);
 mods.techreborn.extractor.removeInputRecipe(<techreborn:part:31>);
-mods.techreborn.extractor.removeInputRecipe(<ore:slimeball>);
+#mods.techreborn.extractor.removeInputRecipe(<ore:slimeball>);
 
 #add uu-matter recipe for iridium ore
 recipes.addShaped(<thermalfoundation:ore:7>, [[<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>], [null, <techreborn:uumatter>, null], [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]]);

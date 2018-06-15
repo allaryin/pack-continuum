@@ -14,7 +14,7 @@ recipes.remove(<rftools:storage_module:6>);
 recipes.addShaped(<rftools:storage_module:6>, [[<refinedstorage:quartz_enriched_iron>, <ore:ingotGold>, <refinedstorage:quartz_enriched_iron>], [<ore:enderpearl>, <rftools:machine_base>, <ore:enderpearl>], [<refinedstorage:quartz_enriched_iron>, <ore:ingotGold>, <refinedstorage:quartz_enriched_iron>]]);
 
 #storage tablet
-recipes.removeShaped(<rftools:storage_module_tablet>);
+recipes.removeShaped(<rftools:storage_module_tablet>, [[<minecraft:gold_nugget>, <minecraft:emerald>, <minecraft:gold_nugget>], [<minecraft:redstone_block>, <minecraft:quartz_block>, <minecraft:redstone_block>], [<minecraft:gold_nugget>, <minecraft:redstone_block>, <minecraft:gold_nugget>]]);
 recipes.addShaped(<rftools:storage_module_tablet>, [[<ore:ingotIron>, <extrautils2:terraformer:1>, <ore:ingotIron>], [<wrcbe:material:2>, <thermalexpansion:frame>, <wrcbe:material:2>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 
 #powercell card

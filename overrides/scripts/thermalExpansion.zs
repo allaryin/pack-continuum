@@ -60,4 +60,8 @@ recipes.addShapeless(<minecraft:stick>, [<thermalfoundation:material:800>, <ther
 #rich slag
 recipes.addShaped(<thermalfoundation:material:865>, [[<ore:dustWood>, <ore:crystalCinnabar>, <ore:dustWood>], [<ore:crystalCinnabar>, null, <ore:crystalCinnabar>], [<ore:dustWood>, <ore:crystalCinnabar>, <ore:dustWood>]]);
 
+#magma crucible
+recipes.remove(<thermalexpansion:machine:6>);
+recipes.addShaped(<thermalexpansion:machine:6>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), [[null, <ore:blockGlass>, null], [<minecraft:nether_brick>, <thermalexpansion:frame>, <minecraft:nether_brick>], [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
+
 print("Initialized 'thermalExpansion.zs'");
