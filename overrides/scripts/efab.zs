@@ -44,6 +44,9 @@ recipes.addShaped(<efab:rfcontrol>, [[<ore:platerefinedIron>, <ore:circuitBasic>
 #storage
 recipes.remove(<efab:rfstorage>);
 recipes.addShaped(<efab:rfstorage>, [[null, <efab:base>, null], [<techreborn:lapotroncrystal>, <techreborn:part:30>, <techreborn:lapotroncrystal>], [null, <efab:base>, null]]);
+#advanced storage
+recipes.remove(<efab:rfstorage_advanced>);
+recipes.addShaped(<efab:rfstorage_advanced>, [[<efab:base>, <efab:rfstorage>, <efab:base>], [<efab:rfstorage>, <appliedenergistics2:material:17>, <efab:rfstorage>], [<efab:base>, <efab:rfstorage>, <efab:base>]]);
 
 #auto crafting tier
 #storage block

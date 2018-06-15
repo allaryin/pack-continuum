@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0602.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0614.0" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<!-- forge -->
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.3.2655">forge</Import>
-		<Module name="Minecraft Forge" id="forge-14.23.3.2655" depends="" side="BOTH">
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2705">forge</Import>
+		<Module name="Minecraft Forge" id="forge-14.23.4.2705" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Override</ModType>
@@ -33,7 +33,7 @@
 			<URL priority='1'>https://raw.githubusercontent.com/allaryin/pack-continuum/master/overrides.zip</URL>
 			<Required>true</Required>
 			<ModType inRoot="true">Extract</ModType>
-			<MD5>78f445e10b40fb1834e2ac3a078ed192</MD5> <!-- auto:overrides.zip -->
+			<MD5>92aa30d6aba10dddc83fbcf105e2f358</MD5> <!-- auto:overrides.zip -->
 		</Module>
 
 		<!-- additions -->
@@ -366,11 +366,11 @@
 			<MD5>766e259a019cd1d807e04e0331711e75</MD5>
 		</Module>
 		<Module name="advanced-rocketry" id="advanced-rocketry" depends="" side="BOTH">
-			<Curse project="advanced-rocketry" file="2563342" type="RELEASE" autoupgrade="false"/>
+			<Curse project="advanced-rocketry" file="2569792" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a94e543737e5553672208884c5c14720</MD5>
+			<MD5>bb49f66dcbc186f9ef1dd2af7b691350</MD5>
 		</Module>
 		<Module name="ae2-stuff" id="ae2-stuff" depends="" side="BOTH">
 			<Curse project="ae2-stuff" file="2491032" type="RELEASE" autoupgrade="false"/>
@@ -380,11 +380,11 @@
 			<MD5>8594b7501c1ecc1bdaaa8ef42b7dbdda</MD5>
 		</Module>
 		<Module name="applecore" id="applecore" depends="" side="BOTH">
-			<Curse project="applecore" file="2530884" type="RELEASE" autoupgrade="false"/>
+			<Curse project="applecore" file="2571935" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b07ddee5ebde78a0f4d8bf770f4c11f8</MD5>
+			<MD5>3d9de7bedada70a1fd544d3ef6353c8d</MD5>
 		</Module>
 <!-- optional
 		<Module name="appleskin" id="appleskin" depends="" side="BOTH">
@@ -419,11 +419,11 @@
 		</Module>
 -->
 		<Module name="base" id="base" depends="" side="BOTH">
-			<Curse project="base" file="2561983" type="RELEASE" autoupgrade="false"/>
+			<Curse project="base" file="2571522" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3accd62bd7a2ed56fdc74bd24cacbdb6</MD5>
+			<MD5>cfc0b1647d4f31a101b197d3ebdec2ef</MD5>
 		</Module>
 		<Module name="baubles" id="baubles" depends="" side="BOTH">
 			<Curse project="baubles" file="2518667" type="RELEASE" autoupgrade="false"/>
@@ -456,18 +456,18 @@
 			<MD5>64763e14d31cdc21cedd4c4e85fbec73</MD5>
 		</Module>
 		<Module name="better-questing" id="better-questing" depends="" side="BOTH">
-			<Curse project="better-questing" file="2564646" type="RELEASE" autoupgrade="false"/>
+			<Curse project="better-questing" file="2569946" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>42af39011aec4b65ced3b9e14618ebfa</MD5>
+			<MD5>8253240d503dc5b748733ac06d07dc97</MD5>
 		</Module>
 		<Module name="better-questing-standard-expansion" id="better-questing-standard-expansion" depends="" side="BOTH">
-			<Curse project="better-questing-standard-expansion" file="2564651" type="RELEASE" autoupgrade="false"/>
+			<Curse project="better-questing-standard-expansion" file="2566315" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3537aecf4d1afe375d955089cdb1a772</MD5>
+			<MD5>03d0116077dc220c9239d5737503b845</MD5>
 			<ModPath>mods/standard-expansion.jar</ModPath>
 		</Module>
 		<Module name="better-questing-triggerer" id="better-questing-triggerer" depends="" side="BOTH">
@@ -479,6 +479,7 @@
 		</Module>
 		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/bibliocraft/files/2565070/download</URL>
+			<URL priority="1">https://files.mcupdater.com/imaginescape.continuum/overrides/mods/BiblioCraft-v2.4.4.jar</URL>
 			<Curse project="bibliocraft" file="2565070" type="RELEASE" autoupgrade="false"/>
 			<Size>5121807</Size>
 			<Required>true</Required>
@@ -528,11 +529,11 @@
 			<MD5>e42efa8f4fd42d2918128a826b740e98</MD5>
 		</Module>
 		<Module name="charset-lib" id="charset-lib" depends="" side="BOTH">
-			<Curse project="charset-lib" file="2559210" type="RELEASE" autoupgrade="false"/>
+			<Curse project="charset-lib" file="2571334" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>205b27d37dc64e62429e746f1cc90878</MD5>
+			<MD5>dac4a9c6db2b8efa1375498c0b4938fc</MD5>
 		</Module>
 		<Module name="chest-transporter" id="chest-transporter" depends="" side="BOTH">
 			<Curse project="chest-transporter" file="2524058" type="RELEASE" autoupgrade="false"/>
@@ -557,11 +558,11 @@
 		</Module>
 <!-- overriding optional -->
 		<Module name="codechicken-lib-1-8" id="codechickenlib" depends="" side="BOTH">
-			<Curse project="codechicken-lib-1-8" file="2558563" type="RELEASE" autoupgrade="false"/>
+			<Curse project="codechicken-lib-1-8" file="2571070" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
-			<ModType>Override</ModType>
-			<MD5>b92d9acf18144067cd3143116808c32f</MD5>
+			<ModType>Regular</ModType>
+			<MD5>7c06a1ef2895b896487de16a9e61b597</MD5>
 		</Module>
 		<Module name="CoFH World" id="cofh-world" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/cofh-world/files/2567263/download</URL>
@@ -579,19 +580,11 @@
 			</Meta>
 		</Module>
 		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/cofhcore/files/2567553/download</URL>
-			<Curse project="cofhcore" file="2567553" type="RELEASE" autoupgrade="false"/>
+			<Curse project="cofhcore" file="2568324" type="RELEASE" autoupgrade="false"/>
 			<Size>838102</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>44895d84a19a261c6621f69ce3b92216</MD5>
-			<Meta>
-				<credits>Team CoFH</credits>
-				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
-				<version>4.5.1.18</version>
-				<url>http://www.teamcofh.com</url>
-				<authors>Team CoFH</authors>
-			</Meta>
+			<MD5>042b4e46944453f48079b102f851fc77</MD5>
 		</Module>
 <!-- optional
 		<Module name="controlling" id="controlling" depends="" side="BOTH">
@@ -603,11 +596,11 @@
 		</Module>
 -->
 		<Module name="cooking-for-blockheads" id="cooking-for-blockheads" depends="" side="BOTH">
-			<Curse project="cooking-for-blockheads" file="2543356" type="RELEASE" autoupgrade="false"/>
+			<Curse project="cooking-for-blockheads" file="2571784" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f2f008d4be93a83f36f3dac54bc87fc6</MD5>
+			<MD5>c2195d942d1bbae1ec1224059f52dacf</MD5>
 		</Module>
 		<Module name="crafttweaker" id="crafttweaker" depends="" side="BOTH">
 			<Curse project="crafttweaker" file="2554607" type="RELEASE" autoupgrade="false"/>
@@ -617,11 +610,11 @@
 			<MD5>8bee6d4762f4a0ed85c34c988a56c077</MD5>
 		</Module>
 		<Module name="ctm" id="ctm" depends="" side="BOTH">
-			<Curse project="ctm" file="2519601" type="RELEASE" autoupgrade="false"/>
+			<Curse project="ctm" file="2568996" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f67d95bb874571c2b77517654593b23f</MD5>
+			<MD5>3b1ede47a3fcc3ab7aa6f4a76ed1cab8</MD5>
 		</Module>
 		<Module name="custom-main-menu" id="custom-main-menu" depends="" side="BOTH">
 			<Curse project="custom-main-menu" file="2482584" type="RELEASE" autoupgrade="false"/>
@@ -652,25 +645,22 @@
 			<MD5>1d616cb7b25de3ae44f06e26d18bd07e</MD5>
 		</Module>
 		<Module name="efab" id="efab" depends="" side="BOTH">
-			<Curse project="efab" file="2561970" type="RELEASE" autoupgrade="false"/>
+			<Curse project="efab" file="2569384" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>313082dfcc5bfdc9c98fe99820a5ab43</MD5>
+			<MD5>d2510b03d80f36aba5de37ba9620f5e0</MD5>
 		</Module>
 		<Module name="elulib" id="elulib" depends="" side="BOTH">
-			<Curse project="elulib" file="2533966" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>473c5cc42c88e61db013eab03e39016a</MD5>
+			<!-- was renamed to mysticallib -->
+			<ModType>Removal</ModType>
 		</Module>
 		<Module name="EnderStorage" id="ender-storage-1-8" depends="" side="BOTH">
-			<Curse project="ender-storage-1-8" file="2509842" type="RELEASE" autoupgrade="false"/>
+			<Curse project="ender-storage-1-8" file="2570992" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ffc1d43ab70c751a90b343fdd826ea73</MD5>
+			<MD5>936f1fa6377449d4184f8ed003b1b805</MD5>
 			<Meta>
 				<description>Stores your stuff in the END!</description>
 				<url>http://www.minecraftforum.net/topic/909223</url>
@@ -685,18 +675,18 @@
 			<MD5>0dcf1c5b6dfadf4725632a3283269bb2</MD5>
 		</Module>
 		<Module name="engineers-workshop-reborn" id="engineers-workshop-reborn" depends="" side="BOTH">
-			<Curse project="engineers-workshop-reborn" file="2564113" type="RELEASE" autoupgrade="false"/>
+			<Curse project="engineers-workshop-reborn" file="2568639" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c88960b89277b27bcf959681124fe19b</MD5>
+			<MD5>12aa6b52d0e91b47d79913cb024bea99</MD5>
 		</Module>
 		<Module name="environmental-tech" id="environmental-tech" depends="" side="BOTH">
-			<Curse project="environmental-tech" file="2560303" type="RELEASE" autoupgrade="false"/>
+			<Curse project="environmental-tech" file="2569380" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>be1f332448ffc1923952bb2bc5f67d98</MD5>
+			<MD5>b9b2abeb2088cb7a53aea4d9d2d4dbd6</MD5>
 		</Module>
 		<Module name="exchangers" id="exchangers" depends="" side="BOTH">
 			<Curse project="exchangers" file="2558022" type="RELEASE" autoupgrade="false"/>
@@ -720,25 +710,25 @@
 			<MD5>68da2325e8e986f7e78f2e2075e27aa6</MD5>
 		</Module>
 		<Module name="extreme-reactors" id="extreme-reactors" depends="" side="BOTH">
-			<Curse project="extreme-reactors" file="2545869" type="RELEASE" autoupgrade="false"/>
+			<Curse project="extreme-reactors" file="2568534" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e83c3f177db7b64da358499181445f8f</MD5>
+			<MD5>9a581e654f9bbb0f68d7c467de01a8ad</MD5>
 		</Module>
 		<Module name="fastworkbench" id="fastworkbench" depends="" side="BOTH">
-			<Curse project="fastworkbench" file="2560485" type="RELEASE" autoupgrade="false"/>
+			<Curse project="fastworkbench" file="2568496" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8b4d814b04c74724abd6967484a03d13</MD5>
+			<MD5>a425fce878dc50f22fab5791d74ac9e3</MD5>
 		</Module>
 		<Module name="flux-networks" id="flux-networks" depends="" side="BOTH">
-			<Curse project="flux-networks" file="2554683" type="RELEASE" autoupgrade="false"/>
+			<Curse project="flux-networks" file="2570824" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>41ed41703c36ddea0b611252ec23376d</MD5>
+			<MD5>771050c3d4a33b165a463f3fde6f441d</MD5>
 		</Module>
 <!-- optional
 		<Module name="foamfix-for-minecraft" id="foamfix-for-minecraft" depends="" side="BOTH">
@@ -772,18 +762,18 @@
 			<MD5>69a58d79b00dcd09f3a26f477d9c39ed</MD5>
 		</Module>
 		<Module name="ftb-guides" id="ftb-guides" depends="" side="BOTH">
-			<Curse project="ftb-guides" file="2561486" type="RELEASE" autoupgrade="false"/>
+			<Curse project="ftb-guides" file="2570802" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1a2fd68f3eabfccc9159d21c36279185</MD5>
+			<MD5>4fb8e97e13c55f01d343ca7f567121a7</MD5>
 		</Module>
 		<Module name="FTB Utilities" id="ftb-utilities" depends="" side="BOTH">
-			<Curse project="ftb-utilities" file="2561796" type="RELEASE" autoupgrade="false"/>
+			<Curse project="ftb-utilities" file="2570799" type="RELEASE" autoupgrade="false"/>
 			<Size>381573</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3bb59494d456e078ac637e3cbf9d0b6a</MD5>
+			<MD5>574f197767000789b69dc144b7d2a1f3</MD5>
 			<Meta>
 				<description>FTBUtilities</description>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
@@ -791,11 +781,11 @@
 			</Meta>
 		</Module>
 		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
-			<Curse project="ftblib" file="2561795" type="RELEASE" autoupgrade="false"/>
+			<Curse project="ftblib" file="2570798" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ea9b6c7611e66264f8877221de6a1f78</MD5>
+			<MD5>bd107782af0826d9ac462f14450f5e35</MD5>
 			<Meta>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
@@ -823,11 +813,11 @@
 			<MD5>57ba127778e579d10d705f9f8359d2e0</MD5>
 		</Module>
 		<Module name="industrial-foregoing" id="industrial-foregoing" depends="" side="BOTH">
-			<Curse project="industrial-foregoing" file="2563319" type="RELEASE" autoupgrade="false"/>
+			<Curse project="industrial-foregoing" file="2572080" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d3cad9e841c6722199c16a0b5e9ff8ce</MD5>
+			<MD5>96541d070ed9e7839aba464be746c654</MD5>
 		</Module>
 		<Module name="initial-inventory" id="initial-inventory" depends="" side="BOTH">
 			<Curse project="initial-inventory" file="2465617" type="RELEASE" autoupgrade="false"/>
@@ -897,11 +887,11 @@
 		</Module>
 -->
 		<Module name="libvulpes" id="libvulpes" depends="" side="BOTH">
-			<Curse project="libvulpes" file="2558979" type="RELEASE" autoupgrade="false"/>
+			<Curse project="libvulpes" file="2568853" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7fb0154028c8b79dd2445ce5c96dd5b6</MD5>
+			<MD5>b8f23ba8f448f731adc28bc741b24c6b</MD5>
 		</Module>
 		<Module name="loottabletweaker" id="loottabletweaker" depends="" side="BOTH">
 			<Curse project="loottabletweaker" file="2541554" type="RELEASE" autoupgrade="false"/>
@@ -933,11 +923,11 @@
 			<MD5>e2cd9d3d5ad2078062c91f9c33fd215c</MD5>
 		</Module>
 		<Module name="mcjtylib" id="mcjtylib" depends="" side="BOTH">/
-			<Curse project="mcjtylib" file="2543038" type="RELEASE" autoupgrade="false"/>
+			<Curse project="mcjtylib" file="2572061" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>da3687481a5f5c8d78be4beb77704c7f</MD5>
+			<MD5>c3f4774b67f7c65f01426dc0359deb05</MD5>
 		</Module>
 		<Module name="modtweaker" id="modtweaker" depends="" side="BOTH">
 			<Curse project="modtweaker" file="2558895" type="RELEASE" autoupgrade="false"/>
@@ -983,6 +973,14 @@
 				<url></url>
 				<authors>Jaredlll08</authors>
 			</Meta>
+		</Module>
+		<!-- nee elulib -->
+		<Module name="mysticallib" id="mysticallib" depends="" side="BOTH">
+			<Curse project="mysticallib" file="2533966" type="RELEASE" autoupgrade="false"/>
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>473c5cc42c88e61db013eab03e39016a</MD5>
 		</Module>
 		<Module name="natura" id="natura" depends="" side="BOTH">
 			<Curse project="natura" file="2553697" type="RELEASE" autoupgrade="false"/>
@@ -1031,6 +1029,7 @@
 			<ModType>Removal</ModType>
 		</Module>
 		<Module name="pams-harvestcraft" id="harvestcraft" depends="" side="BOTH">
+			<URL priority='1'>https://files.mcupdater.com/imaginescape.continuum/overrides/mods/Pams-HarvestCraft-1.12.2u.jar</URL>
 			<Curse project="pams-harvestcraft" file="2560919" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
@@ -1053,11 +1052,11 @@
 			<MD5>436bd946aa07f1d808ab29c76ab1e819</MD5>
 		</Module>
 		<Module name="quark" id="quark" depends="" side="BOTH">
-			<Curse project="quark" file="2544279" type="RELEASE" autoupgrade="false"/>
+			<Curse project="quark" file="2571996" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>cec934de31cfa396813cd1fa4f896e15</MD5>
+			<MD5>cea54f67f91569954af0ee5f05aba072</MD5>
 		</Module>
 		<Module name="quick-leaf-decay" id="quick-leaf-decay" depends="" side="BOTH">
 			<Curse project="quick-leaf-decay" file="2469364" type="RELEASE" autoupgrade="false"/>
@@ -1083,12 +1082,11 @@
 		</Module>
 -->
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/reborncore/files/2566374/download</URL>
-			<Curse project="reborncore" file="2566374" type="RELEASE" autoupgrade="false"/>
+			<Curse project="reborncore" file="2571278" type="RELEASE" autoupgrade="false"/>
 			<Size>553103</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>136e16d19acdcc3832615a64eeeb1977</MD5>
+			<MD5>2730fefefa2c18f20c40c3c7f41e3312</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
@@ -1098,12 +1096,11 @@
 			</Meta>
 		</Module>
 		<Module name="Redstone Arsenal" id="redstone-arsenal" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/redstone-arsenal/files/2567270/download</URL>
-			<Curse project="redstone-arsenal" file="2567270" type="RELEASE" autoupgrade="false"/>
+			<Curse project="redstone-arsenal" file="2568564" type="RELEASE" autoupgrade="false"/>
 			<Size>254849</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>40b6e0731a24fbc47ca483f5079d64f6</MD5>
+			<MD5>27b01b4f829ded381a98d4e160417255</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Behold the Redstone (Flux) Revolution - provides Flux-Infused Tools and Armor!</description>
@@ -1142,50 +1139,49 @@
 			<MD5>51141e882f96ce756b9b3d25f2acdf57</MD5>
 		</Module>
 		<Module name="rftools" id="rftools" depends="" side="BOTH">
-			<Curse project="rftools" file="2549092" type="RELEASE" autoupgrade="false"/>
+			<Curse project="rftools" file="2572230" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8758d1cf57c7d5edc2b66aae50a51a1c</MD5>
+			<MD5>d5ad895732f10eae70aa2add998c3ea2</MD5>
 		</Module>
 		<Module name="rftools-control" id="rftools-control" depends="" side="BOTH">
-			<Curse project="rftools-control" file="2541782" type="RELEASE" autoupgrade="false"/>
+			<Curse project="rftools-control" file="2569390" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>67b26a44f522db9e2bd9303024d81edc</MD5>
+			<MD5>08b32cff73ea058c1645d00a7d36d61d</MD5>
 		</Module>
 		<Module name="rftools-power" id="rftools-power" depends="" side="BOTH">
-			<Curse project="rftools-power" file="2551022" type="RELEASE" autoupgrade="false"/>
+			<Curse project="rftools-power" file="2569391" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5fc65d2916370b8e34eb44089c8a0547</MD5>
+			<MD5>226ae835d6cfbcb8c73e43ae4da6f689</MD5>
 		</Module>
 		<Module name='forgelin-rename' id='shadowfacts-forgelin' depends='' side='CLIENT'>
 			<ModType>Removal</ModType>
 		</Module>
 		<Module name="shadowfacts-forgelin" id="forgelin" depends="" side="BOTH">
-			<Curse project="shadowfacts-forgelin" file="2505090" type="RELEASE" autoupgrade="false"/>
+			<Curse project="shadowfacts-forgelin" file="2571478" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a6a1d137f7bbbbe5f89ecb790105f268</MD5>
+			<MD5>36fa96d425afe9793449b7b80f21aeca</MD5>
 		</Module>
 		<Module name="simplelogic" id="simplelogic" depends="" side="BOTH">
-			<Curse project="simplelogic" file="2553866" type="RELEASE" autoupgrade="false"/>
+			<Curse project="simplelogic" file="2571300" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8eab8753556f06e6a908647149ca72b5</MD5>
+			<MD5>97b169105e175ff1a213383ff7efdd53</MD5>
 		</Module>
 		<Module name="Simply Jetpacks 2" id="simply-jetpacks-2" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/simply-jetpacks-2/files/2564933/download</URL>
-			<Curse project="simply-jetpacks-2" file="2564933" type="RELEASE" autoupgrade="false"/>
+			<Curse project="simply-jetpacks-2" file="2571342" type="RELEASE" autoupgrade="false"/>
 			<Size>647400</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ddebe0b639d68e2aad9116b57d9084f2</MD5>
+			<MD5>a4e3c2fe3a141fc3bab46495e302d465</MD5>
 			<Meta>
 				<credits>Team CoFH, CrazyPants, Pathaleon, sk89q, Cybercat, dand0, nabijaczleweli, kevba10, and anyone else who helped making the mod, directly or indirectly</credits>
 				<description>Redstone Flux jetpacks and more</description>
@@ -1202,11 +1198,11 @@
 			<MD5>7d6c5f38d8976c8238d60b19a4947ea7</MD5>
 		</Module>
 		<Module name="sonar-core" id="sonar-core" depends="" side="BOTH">
-			<Curse project="sonar-core" file="2555866" type="RELEASE" autoupgrade="false"/>
+			<Curse project="sonar-core" file="2570655" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ab696953e4eae3e8d950847de4904b3a</MD5>
+			<MD5>984d6823dc568df0cc768501aff11017</MD5>
 		</Module>
 		<Module name="splashanimation" id="splashanimation" depends="" side="BOTH">
 			<Curse project="splashanimation" file="2540083" type="RELEASE" autoupgrade="false"/>
@@ -1216,11 +1212,11 @@
 			<MD5>ba9e2c9528d794652b26aa945ed13736</MD5>
 		</Module>
 		<Module name="steves-carts-reborn" id="steves-carts-reborn" depends="" side="BOTH">
-			<Curse project="steves-carts-reborn" file="2563606" type="RELEASE" autoupgrade="false"/>
+			<Curse project="steves-carts-reborn" file="2568642" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1a08fd1679e649795999ee83bfdaf8c7</MD5>
+			<MD5>1cff3ecff7ab0ab60e749c06358ee003</MD5>
 		</Module>
 		<Module name="storage-drawers" id="storage-drawers" depends="" side="BOTH">
 			<Curse project="storage-drawers" file="2545495" type="RELEASE" autoupgrade="false"/>
@@ -1237,11 +1233,11 @@
 			<MD5>972063ce9ceb8df9af49e73858e557fa</MD5>
 		</Module>
 		<Module name="techreborn" id="techreborn" depends="" side="BOTH">
-			<Curse project="techreborn" file="2564076" type="RELEASE" autoupgrade="false"/>
+			<Curse project="techreborn" file="2571275" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>91ffeecf46910d1f39ae0489dc5469a2</MD5>
+			<MD5>9acd99ac8aeceaaa5aab33d3b214f48b</MD5>
 		</Module>
 		<Module name="tesla" id="tesla" depends="" side="BOTH">
 			<Curse project="tesla" file="2487959" type="RELEASE" autoupgrade="false"/>
@@ -1258,21 +1254,21 @@
 			<MD5>a70022380a325cf48964d7a9584fa831</MD5>
 		</Module>
 		<Module name="the-one-probe" id="the-one-probe" depends="" side="BOTH">
-			<Curse project="the-one-probe" file="2549097" type="RELEASE" autoupgrade="false"/>
+			<Curse project="the-one-probe" file="2569399" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ec0a77ddc08541135a02ecfe6755d393</MD5>
+			<MD5>358d7d31b63d38e5025aca280a1a95c9</MD5>
 		</Module>
 		<Module name='spice-of-life-rename' id='the-spice-of-life' depends='' side='CLIENT'>
 			<ModType>Removal</ModType>
 		</Module>
 		<Module name="the-spice-of-life" id="spice-of-life" depends="" side="BOTH">
-			<Curse project="the-spice-of-life" file="2486848" type="RELEASE" autoupgrade="false"/>
+			<Curse project="the-spice-of-life" file="2571951" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>30edc59a10f518639709a0187fbe522c</MD5>
+			<MD5>5a4c30010b31c5af956f2d597fa5a29f</MD5>
 		</Module>
 		<Module name="Thermal Cultivation" id="thermal-cultivation" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-cultivation/files/2567267/download</URL>
@@ -1290,12 +1286,11 @@
 			</Meta>
 		</Module>
 		<Module name="Thermal Dynamics" id="thermal-dynamics" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/thermal-dynamics/files/2567426/download</URL>
-			<Curse project="thermal-dynamics" file="2567426" type="RELEASE" autoupgrade="false"/>
+			<Curse project="thermal-dynamics" file="2569008" type="RELEASE" autoupgrade="false"/>
 			<Size>758605</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>787ece4465f53e9d43e23992a7c6ff62</MD5>
+			<MD5>82d0bf008f5e48a6efca3f7739982351</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
@@ -1336,19 +1331,19 @@
 		</Module>
 
 		<Module name="tinkers-construct" id="tinkers-construct" depends="" side="BOTH">
-			<Curse project="tinkers-construct" file="2563033" type="RELEASE" autoupgrade="false"/>
+			<Curse project="tinkers-construct" file="2571785" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>da1f9a225ab31275420e55bb5f88c833</MD5>
+			<MD5>59cef77d6e9a3ca3db31ac53c376ff1a</MD5>
 			<ModPath>mods/tconstruct.jar</ModPath>
 		</Module>
 		<Module name="tinkers-tool-leveling" id="tinkers-tool-leveling" depends="" side="BOTH">
-			<Curse project="tinkers-tool-leveling" file="2558689" type="RELEASE" autoupgrade="false"/>
+			<Curse project="tinkers-tool-leveling" file="2570118" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9d509b63f11ed73e6819513c945be5e4</MD5>
+			<MD5>52e33e408b27de0147a0154da1771eb6</MD5>
 		</Module>
 		<Module name="TOP Addons" id="top-addons" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/top-addons/files/2567271/download</URL>
@@ -1373,18 +1368,18 @@
 			<MD5>a6fa50d23c6d4ebc629404ceabb633fc</MD5>
 		</Module>
 		<Module name="translocators-1-8" id="translocators-1-8" depends="" side="BOTH">
-			<Curse project="translocators-1-8" file="2540357" type="RELEASE" autoupgrade="false"/>
+			<Curse project="translocators-1-8" file="2570994" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>68870f3f3fe5be99521999a37770878f</MD5>
+			<MD5>21cf7ade4402d7e77a58e1982bb87944</MD5>
 		</Module>
 		<Module name="traverse" id="traverse" depends="" side="BOTH">
-			<Curse project="traverse" file="2556922" type="RELEASE" autoupgrade="false"/>
+			<Curse project="traverse" file="2571047" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>17d040e75451b2acea4d4ca2132dd3e3</MD5>
+			<MD5>74f9ebc1fd7113242e89d998060794f9</MD5>
 		</Module>
 		<Module name="unidict" id="unidict" depends="" side="BOTH">
 			<Curse project="unidict" file="2563162" type="RELEASE" autoupgrade="false"/>
@@ -1394,11 +1389,11 @@
 			<MD5>1ce839ca7b1e06c5700108516fb57dcd</MD5>
 		</Module>
 		<Module name="valkyrielib" id="valkyrielib" depends="" side="BOTH">
-			<Curse project="valkyrielib" file="2560402" type="RELEASE" autoupgrade="false"/>
+			<Curse project="valkyrielib" file="2569370" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f89c26da514a93173c53355aba86316b</MD5>
+			<MD5>a2d7392643b9e554a5ee6f0e07e10f07</MD5>
 		</Module>
 		<Module name="wanionlib" id="wanionlib" depends="" side="BOTH">
 			<Curse project="wanionlib" file="2534271" type="RELEASE" autoupgrade="false"/>
@@ -1422,25 +1417,25 @@
 			<MD5>69a0d139883d53c148f6f017c7306809</MD5>
 		</Module>
 		<Module name="xnet" id="xnet" depends="" side="BOTH">
-			<Curse project="xnet" file="2549094" type="RELEASE" autoupgrade="false"/>
+			<Curse project="xnet" file="2572064" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>56a059a198bddd48c354d6d80bf8b5d1</MD5>
+			<MD5>6f27fc13cf404de7e30c199cb26bb03c</MD5>
 		</Module>
 		<Module name="yabba" id="yabba" depends="" side="BOTH">
-			<Curse project="yabba" file="2561487" type="RELEASE" autoupgrade="false"/>
+			<Curse project="yabba" file="2570800" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7151f983ce5c97438832f8d98262664e</MD5>
+			<MD5>91498d9f29e1e7733b5522aed2944715</MD5>
 		</Module>
 		<Module name="zerocore" id="zerocore" depends="" side="BOTH">
-			<Curse project="zerocore" file="2545939" type="RELEASE" autoupgrade="false"/>
+			<Curse project="zerocore" file="2568531" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a77f87366de6a6e9c786c59c786aa8b7</MD5>
+			<MD5>aa1e584c2bd1a288a9287f2f0bc3700f</MD5>
 		</Module>
 	</Server>
 </ServerPack>
