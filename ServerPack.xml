@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0614.0" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+	<Server id="is-continuum" abstract="false" name="IS Continuum" newsUrl="http://files.mcupdater.com/imaginescape.tk/graphics/6je6lryk.png" iconUrl="http://files.mcupdater.com/imaginescape.tk/graphics/icon.png" version="1.12.2" serverAddress="173.183.120.250" generateList="true" autoConnect="false" revision="18.0614.1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
 		<!-- forge -->
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.4.2705">forge</Import>
 		<Module name="Minecraft Forge" id="forge-14.23.4.2705" depends="" side="BOTH">
@@ -70,21 +70,21 @@
 		</Module>
 
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft/files/2558648/download</URL>
-			<Curse project="thaumcraft" file="2558648" type="RELEASE" autoupgrade="false"/>
-			<Size>10657278</Size>
+			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft/files/2569273/download</URL>
+			<Curse project="thaumcraft" file="2569273" type="RELEASE" autoupgrade="false"/>
+			<Size>11015653</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5414d777e4c2bbc6174fa846cbf7e010</MD5>
+			<MD5>c60ce7226732596c364a2c71c304cccc</MD5>
 			<Meta>
 				<credits>Special thanks to CovertJaguar, Dan Scott, Lorc, bonemouse, Scott Killen, Rorax and chicken_bones</credits>
 				<description>Adding a touch of magic to Minecraft</description>
-				<version>1.12.2-6.1.BETA13</version>
+				<version>1.12.2-6.1.BETA16</version>
 				<url>http://www.minecraftforum.net/topic/2011841-thaumcraft</url>
 				<authors>Azanor</authors>
 			</Meta>
 		</Module>
-		<Module name="Thaumcraft Inventory Scanning" id="tcinventoryscan" depends="thaumcraft" side="BOTH">
+			<Module name="Thaumcraft Inventory Scanning" id="tcinventoryscan" depends="thaumcraft" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/thaumcraft-inventory-scanning/files/2559089/download</URL>
 			<Curse project="thaumcraft-inventory-scanning" file="2559089" type="RELEASE" autoupgrade="false"/>
 			<Size>17224</Size>
@@ -326,16 +326,16 @@
 		</Module>
 
 		<Module name="Comforts" id="comforts" depends="" side="BOTH">
-			<URL priority="0">https://minecraft.curseforge.com/projects/comforts/files/2560487/download</URL>
-			<Curse project="comforts" file="2560487" type="RELEASE" autoupgrade="false"/>
-			<Size>148119</Size>
+			<URL priority="0">https://minecraft.curseforge.com/projects/comforts/files/2571503/download</URL>
+			<Curse project="comforts" file="2571503" type="RELEASE" autoupgrade="false"/>
+			<Size>148840</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>96fe6eaf3abd39722b98537cd05956b6</MD5>
+			<MD5>14aedb24e7256ecb6da9a553cc1ede2d</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Adds sleeping bags and hammocks for portability and daytime napping without setting a new spawn. Comes in 16 different colors!</description>
-				<version>1.12.2-1.1.1.1</version>
+				<version>1.12.2-1.1.2</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
