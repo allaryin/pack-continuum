@@ -561,7 +561,7 @@
 			<Curse project="codechicken-lib-1-8" file="2571070" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
-			<ModType>Override</ModType>
+			<ModType>Regular</ModType>
 			<MD5>7c06a1ef2895b896487de16a9e61b597</MD5>
 		</Module>
 		<Module name="CoFH World" id="cofh-world" depends="" side="BOTH">
