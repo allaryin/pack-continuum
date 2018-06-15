@@ -1286,6 +1286,7 @@
 			</Meta>
 		</Module>
 		<Module name="Thermal Dynamics" id="thermal-dynamics" depends="" side="BOTH">
+			<URL priority='1'>https://files.mcupdater.com/imaginescape.continuum/overrides/mods/ThermalDynamics-1.12.2-2.5.1.14-universal.jar</URL>
 			<Curse project="thermal-dynamics" file="2569008" type="RELEASE" autoupgrade="false"/>
 			<Size>758605</Size>
 			<Required>true</Required>
