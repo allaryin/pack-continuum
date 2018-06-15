@@ -479,7 +479,7 @@
 		</Module>
 		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
 			<URL priority="0">https://minecraft.curseforge.com/projects/bibliocraft/files/2565070/download</URL>
-			<URL priority="1">https://files.mcupdater.com/imaginescape.continuum/overrides/mods/BiblioCraft-v2.4.4.jar</URL>
+			<URL priority="1">https://files.mcupdater.com/imaginescape.continuum/mods/BiblioCraft-v2.4.4.jar</URL>
 			<Curse project="bibliocraft" file="2565070" type="RELEASE" autoupgrade="false"/>
 			<Size>5121807</Size>
 			<Required>true</Required>
@@ -1029,7 +1029,7 @@
 			<ModType>Removal</ModType>
 		</Module>
 		<Module name="pams-harvestcraft" id="harvestcraft" depends="" side="BOTH">
-			<URL priority='1'>https://files.mcupdater.com/imaginescape.continuum/overrides/mods/Pams-HarvestCraft-1.12.2u.jar</URL>
+			<URL priority='1'>https://files.mcupdater.com/imaginescape.continuum/mods/Pams-HarvestCraft-1.12.2u.jar</URL>
 			<Curse project="pams-harvestcraft" file="2560919" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
 			<Required>true</Required>
@@ -1286,7 +1286,7 @@
 			</Meta>
 		</Module>
 		<Module name="Thermal Dynamics" id="thermal-dynamics" depends="" side="BOTH">
-			<URL priority='1'>https://files.mcupdater.com/imaginescape.continuum/overrides/mods/ThermalDynamics-1.12.2-2.5.1.14-universal.jar</URL>
+			<URL priority='1'>https://files.mcupdater.com/imaginescape.continuum/mods/ThermalDynamics-1.12.2-2.5.1.14-universal.jar</URL>
 			<Curse project="thermal-dynamics" file="2569008" type="RELEASE" autoupgrade="false"/>
 			<Size>758605</Size>
 			<Required>true</Required>
