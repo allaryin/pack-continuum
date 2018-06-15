@@ -981,7 +981,7 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>473c5cc42c88e61db013eab03e39016a</MD5>
-			<ModPath>mods/elulib.jar</Modpath>
+			<ModPath>mods/elulib.jar</ModPath>
 		</Module>
 		<Module name="natura" id="natura" depends="" side="BOTH">
 			<Curse project="natura" file="2553697" type="RELEASE" autoupgrade="false"/>
