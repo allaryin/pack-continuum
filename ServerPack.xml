@@ -651,11 +651,8 @@
 			<MD5>d2510b03d80f36aba5de37ba9620f5e0</MD5>
 		</Module>
 		<Module name="elulib" id="elulib" depends="" side="BOTH">
-			<Curse project="elulib" file="2533966" type="RELEASE" autoupgrade="false"/>
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>473c5cc42c88e61db013eab03e39016a</MD5>
+			<!-- was renamed to mysticallib -->
+			<ModType>Removal</ModType>
 		</Module>
 		<Module name="EnderStorage" id="ender-storage-1-8" depends="" side="BOTH">
 			<Curse project="ender-storage-1-8" file="2570992" type="RELEASE" autoupgrade="false"/>
@@ -976,6 +973,7 @@
 				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
+		<!-- nee elulib -->
 		<Module name="mysticallib" id="mysticallib" depends="" side="BOTH">
 			<Curse project="mysticallib" file="2533966" type="RELEASE" autoupgrade="false"/>
 			<Size>100000</Size>
