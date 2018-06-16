@@ -85,6 +85,9 @@ recipes.remove(<minecraft:leather>);
 #black quartz (removed from world gen and forced into efab)
 recipes.remove(<actuallyadditions:item_misc:5>);
 
+#base metals
+recipes.remove(<basemetals:coal_nugget>);
+
 #hardened leather armor
 mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherhelmitem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:hardenedleatherchestitem>);
